@@ -1,27 +1,36 @@
----
 language: node_js
 node_js:
-  - "6"
-
-sudo: false
+  - 'stable'
+cache: yarn
+sudo: required
 dist: trusty
-
 addons:
-  chrome: stable
-
-cache:
-  directories:
-    - $HOME/.npm
-
+  apt:
+    sources:
+      - google-chrome
+      - r-packages-trusty
+      - sourceline: 'ppa:marutter/rrutter'
+      - sourceline: 'ppa:marutter/c2d4u'
+    packages:
+      - google-chrome-stable
+      - r-recommended
+      - r-cran-jsonlite
+      - r-cran-r6
 env:
-  global:
-    # See https://git.io/vdao3 for details.
-    - JOBS=1
-
-before_install:
-  - npm config set spin false
-
+  - CHROME_PATH=/usr/bin/google-chrome-stable R_LIBS_USER=~/R/Library
+install:
+  - yarn install
+  - mkdir -p ~/R/Library
+  - Rscript --version
 script:
-  - npm run lint:hbs
-  - npm run lint:js
-  - npm test
+  - yarn test
+  - yarn lint
+after_script:
+  - yarn lerna run report
+before_install:
+  - export CHROME_BIN=/usr/bin/google-chrome-stable
+  - sh -e /etc/init.d/xvfb start
+  - sudo apt-get update
+  - sudo apt-get install -y libappindicator1 fonts-liberation
+  - wget https://dl.google.com/linux/direct/google-chrome-unstable_current_amd64.deb
+  - sudo dpkg -i google-chrome*.deb
