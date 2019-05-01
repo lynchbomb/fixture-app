@@ -1,7 +1,7 @@
 ---
 language: node_js
 node_js:
-  - "10"
+  - '10'
 
 sudo: false
 dist: trusty
@@ -20,8 +20,3 @@ env:
 
 before_install:
   - npm config set spin false
-
-script:
-  - npm run lint:hbs
-  - npm run lint:js
-  - npm test

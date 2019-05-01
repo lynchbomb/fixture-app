@@ -1,0 +1,6 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TracerBench/tracerbench/master/packages/cli/tb-schema.json",
+  "fidelity": "test",
+  "controlURL": "http://localhost:4200/",
+  "experimentURL": "http://localhost:4200/"
+}
