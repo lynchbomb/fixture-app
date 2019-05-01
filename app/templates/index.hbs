@@ -1,0 +1,23 @@
+<h2>Index</h2>
+<ul>
+  {{#each this.model as |item|}}
+  <li>
+    {{component-buffer-render data=item.a}}
+    {{component-buffer-render data=item.b}}
+    {{component-buffer-render data=item.c}}
+    {{component-buffer-render data=item.d}}
+  </li>
+  <li>
+    {{component-buffer-render data=item.a}}
+    {{component-buffer-render data=item.b}}
+    {{component-buffer-render data=item.c}}
+    {{component-buffer-render data=item.d}}
+  </li>
+  <li>
+    {{component-render a=item.a b=item.b c=item.c d=item.d}}
+  </li>
+  <li>
+    {{component-render a=item.a b=item.b c=item.c d=item.d}}
+  </li>
+  {{/each}}
+</ul>
