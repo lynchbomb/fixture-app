@@ -1,0 +1,4878 @@
+[
+  {
+    "meta": {
+      "browserVersion": "HeadlessChrome/76.0.3783.0",
+      "cpus": [
+        "Intel(R) Core(TM) i7-7920HQ CPU @ 3.10GHz",
+        "Intel(R) Core(TM) i7-7920HQ CPU @ 3.10GHz",
+        "Intel(R) Core(TM) i7-7920HQ CPU @ 3.10GHz",
+        "Intel(R) Core(TM) i7-7920HQ CPU @ 3.10GHz",
+        "Intel(R) Core(TM) i7-7920HQ CPU @ 3.10GHz",
+        "Intel(R) Core(TM) i7-7920HQ CPU @ 3.10GHz",
+        "Intel(R) Core(TM) i7-7920HQ CPU @ 3.10GHz",
+        "Intel(R) Core(TM) i7-7920HQ CPU @ 3.10GHz"
+      ]
+    },
+    "samples": [
+      {
+        "duration": 1337578,
+        "js": 1133005,
+        "phases": [
+          {
+            "phase": "navigationStart",
+            "start": 0,
+            "duration": 205
+          },
+          {
+            "phase": "fetchStart",
+            "start": 205,
+            "duration": 19928
+          },
+          {
+            "phase": "domLoading",
+            "start": 20133,
+            "duration": 1182089
+          },
+          {
+            "phase": "domInteractive",
+            "start": 1202222,
+            "duration": 86258
+          },
+          {
+            "phase": "domComplete",
+            "start": 1288480,
+            "duration": 49098
+          }
+        ],
+        "gc": [
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 66441
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 189427,
+            "duration": 4846,
+            "usedHeapSizeAfter": 3197664,
+            "usedHeapSizeBefore": 3604824
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 189427,
+            "usedHeapSizeBefore": 3604824
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 230659,
+            "duration": 5837,
+            "usedHeapSizeAfter": 3766840,
+            "usedHeapSizeBefore": 4030208
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 230659,
+            "usedHeapSizeBefore": 4030208
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 300337,
+            "duration": 1736,
+            "usedHeapSizeAfter": 4983488,
+            "usedHeapSizeBefore": 5391336
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 300337,
+            "usedHeapSizeBefore": 5391336
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 521042,
+            "duration": 1964,
+            "usedHeapSizeAfter": 6841464,
+            "usedHeapSizeBefore": 7888136
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 521042,
+            "usedHeapSizeBefore": 7888136
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 598885
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 601944
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 610782,
+            "duration": 2977,
+            "usedHeapSizeAfter": 7136464,
+            "usedHeapSizeBefore": 8353824
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 610782,
+            "usedHeapSizeBefore": 8353824
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 623871
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 623974
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 625721
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 626705
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 627225
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 641930
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 642438
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 644207
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 645642
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 646356
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 651932
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 653776
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 662727
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 687105
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 688686
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 694633
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 695652
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 696523
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 697919
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 703754
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 705197
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 705947
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 707225
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 722335
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 722884
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 725436
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 747542,
+            "duration": 1877,
+            "usedHeapSizeAfter": 7744608,
+            "usedHeapSizeBefore": 9013504
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 747542,
+            "usedHeapSizeBefore": 9013504
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 814432
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 816829
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 817949
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 818898
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 820563
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 844492
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 872454
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 889675
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 891918
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 913071
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 958296,
+            "duration": 2790,
+            "usedHeapSizeAfter": 9118536,
+            "usedHeapSizeBefore": 11460456
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 958296,
+            "usedHeapSizeBefore": 11460456
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 979830
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 987845
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 999809
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1012708
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1025711
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1028181
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1029998
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1070445
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1077709
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1079625
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1080195
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1081796
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1083343
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1085306
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1086923
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1088714
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1091450
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1097484
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1098733
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1100623
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1104066
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1106736
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 1140908,
+            "duration": 4413,
+            "usedHeapSizeAfter": 10212520,
+            "usedHeapSizeBefore": 12004496
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 1140908,
+            "usedHeapSizeBefore": 12004496
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1151083
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1169799
+          }
+        ],
+        "blinkGC": [],
+        "runtimeCallStats": {
+          "Compile-Background": {
+            "CompileBackgroundAnalyse": {
+              "count": 1,
+              "time": 0
+            },
+            "CompileBackgroundCompileTask": {
+              "count": 1,
+              "time": 21
+            },
+            "CompileBackgroundIgnition": {
+              "count": 2,
+              "time": 143
+            },
+            "CompileBackgroundRewriteReturnResult": {
+              "count": 1,
+              "time": 1
+            },
+            "CompileBackgroundScopeAnalysis": {
+              "count": 1,
+              "time": 6
+            },
+            "CompileBackgroundScript": {
+              "count": 1,
+              "time": 20
+            }
+          },
+          "Blink C++": {
+            "GetMoreDataCallback": {
+              "count": 4,
+              "time": 395
+            },
+            "FunctionCallback": {
+              "count": 12254,
+              "time": 41708
+            },
+            "AccessorGetterCallback": {
+              "count": 554,
+              "time": 787
+            },
+            "AccessorSetterCallback": {
+              "count": 368,
+              "time": 49
+            },
+            "GCEpilogueCallback": {
+              "count": 8,
+              "time": 707
+            },
+            "GCPrologueCallback": {
+              "count": 8,
+              "time": 515
+            },
+            "NamedGetterCallback": {
+              "count": 19,
+              "time": 618
+            },
+            "LoadCallbackProperty": {
+              "count": 3,
+              "time": 2
+            },
+            "StoreCallbackProperty": {
+              "count": 338,
+              "time": 121
+            }
+          },
+          "Parse-Background": {
+            "ParseBackgroundFunctionLiteral": {
+              "count": 1,
+              "time": 13
+            },
+            "ParseBackgroundProgram": {
+              "count": 1,
+              "time": 268
+            },
+            "PreParseBackgroundWithVariableResolution": {
+              "count": 5503,
+              "time": 17780
+            }
+          },
+          "V8 C++": {
+            "DeserializeContext": {
+              "count": 1,
+              "time": 3208
+            },
+            "Genesis": {
+              "count": 1,
+              "time": 751
+            },
+            "Map_SetPrototype": {
+              "count": 7468,
+              "time": 4280
+            },
+            "Map_TransitionToDataProperty": {
+              "count": 11264,
+              "time": 21727
+            },
+            "PrototypeMap_TransitionToAccessorProperty": {
+              "count": 29,
+              "time": 556
+            },
+            "PrototypeMap_TransitionToDataProperty": {
+              "count": 460,
+              "time": 1771
+            },
+            "Invoke": {
+              "count": 350,
+              "time": 521
+            },
+            "InvokeApiFunction": {
+              "count": 71,
+              "time": 50
+            },
+            "ArrayLengthGetter": {
+              "count": 165,
+              "time": 11
+            },
+            "ArrayLengthSetter": {
+              "count": 138,
+              "time": 373
+            },
+            "FunctionLengthGetter": {
+              "count": 7,
+              "time": 1
+            },
+            "FunctionPrototypeGetter": {
+              "count": 345,
+              "time": 1813
+            },
+            "FunctionPrototypeSetter": {
+              "count": 230,
+              "time": 1032
+            },
+            "Map_TransitionToAccessorProperty": {
+              "count": 182,
+              "time": 168
+            },
+            "TransitionElementsKindWithKind": {
+              "count": 2,
+              "time": 2
+            },
+            "SetGrow": {
+              "count": 22,
+              "time": 12
+            },
+            "WeakCollectionSet": {
+              "count": 666,
+              "time": 2526
+            },
+            "ForInEnumerate": {
+              "count": 722,
+              "time": 3312
+            },
+            "AllocateInYoungGeneration": {
+              "count": 62,
+              "time": 1651
+            },
+            "OrdinaryHasInstance": {
+              "count": 2,
+              "time": 11
+            },
+            "CreateArrayLiteral": {
+              "count": 285,
+              "time": 171
+            },
+            "CreateArrayLiteralWithoutAllocationSite": {
+              "count": 86,
+              "time": 10
+            },
+            "CreateObjectLiteral": {
+              "count": 1002,
+              "time": 2802
+            },
+            "CreateObjectLiteralWithoutAllocationSite": {
+              "count": 2,
+              "time": 13
+            },
+            "CreateRegExpLiteral": {
+              "count": 93,
+              "time": 208
+            },
+            "NumberToString": {
+              "count": 679,
+              "time": 4376
+            },
+            "AddDictionaryProperty": {
+              "count": 2045,
+              "time": 4794
+            },
+            "CompleteInobjectSlackTrackingForMap": {
+              "count": 59,
+              "time": 11
+            },
+            "DefineAccessorPropertyUnchecked": {
+              "count": 22,
+              "time": 16
+            },
+            "GetProperty": {
+              "count": 586,
+              "time": 1355
+            },
+            "NewObject": {
+              "count": 216,
+              "time": 1911
+            },
+            "ObjectCreate": {
+              "count": 220,
+              "time": 1359
+            },
+            "ObjectKeys": {
+              "count": 94,
+              "time": 376
+            },
+            "SetKeyedProperty": {
+              "count": 1906,
+              "time": 3823
+            },
+            "SetNamedProperty": {
+              "count": 1,
+              "time": 3
+            },
+            "RegExpExec": {
+              "count": 60,
+              "time": 507
+            },
+            "StringSplit": {
+              "count": 490,
+              "time": 2410
+            },
+            "DeclareGlobals": {
+              "count": 1,
+              "time": 11
+            },
+            "NewClosure": {
+              "count": 95,
+              "time": 16
+            },
+            "NewClosure_Tenured": {
+              "count": 2020,
+              "time": 2497
+            },
+            "PushBlockContext": {
+              "count": 1,
+              "time": 4
+            },
+            "StringEqual": {
+              "count": 55,
+              "time": 28
+            },
+            "StringIndexOfUnchecked": {
+              "count": 4,
+              "time": 9
+            },
+            "HandleApiCall": {
+              "count": 6385,
+              "time": 4431
+            },
+            "ArrayConcat": {
+              "count": 127,
+              "time": 146
+            },
+            "ArrayUnshift": {
+              "count": 7,
+              "time": 13
+            },
+            "BooleanConstructor": {
+              "count": 58,
+              "time": 9
+            },
+            "DateNow": {
+              "count": 28,
+              "time": 352
+            },
+            "FunctionPrototypeToString": {
+              "count": 55,
+              "time": 803
+            },
+            "ObjectDefineProperties": {
+              "count": 2,
+              "time": 29
+            },
+            "ObjectDefineProperty": {
+              "count": 396,
+              "time": 1384
+            },
+            "ObjectFreeze": {
+              "count": 23,
+              "time": 21
+            },
+            "ObjectGetOwnPropertyDescriptors": {
+              "count": 78,
+              "time": 1803
+            },
+            "ObjectGetPrototypeOf": {
+              "count": 1838,
+              "time": 1496
+            },
+            "ObjectSetPrototypeOf": {
+              "count": 208,
+              "time": 145
+            },
+            "ObjectIsExtensible": {
+              "count": 5,
+              "time": 4
+            },
+            "SymbolConstructor": {
+              "count": 1,
+              "time": 3
+            },
+            "Object_DeleteProperty": {
+              "count": 1,
+              "time": 5
+            },
+            "StringLengthGetter": {
+              "count": 19,
+              "time": 2
+            },
+            "MapGrow": {
+              "count": 22,
+              "time": 39
+            },
+            "AllocateInOldGeneration": {
+              "count": 1,
+              "time": 3
+            },
+            "ThrowConstructedNonConstructable": {
+              "count": 1,
+              "time": 358
+            },
+            "UnwindAndFindExceptionHandler": {
+              "count": 1,
+              "time": 6
+            },
+            "DeleteProperty": {
+              "count": 1,
+              "time": 4
+            },
+            "RegExpReplaceRT": {
+              "count": 226,
+              "time": 2601
+            },
+            "PushCatchContext": {
+              "count": 1,
+              "time": 1
+            },
+            "GlobalDecodeURIComponent": {
+              "count": 1,
+              "time": 8
+            },
+            "ObjectPrototypeSetProto": {
+              "count": 6,
+              "time": 8
+            },
+            "StringPrototypeLastIndexOf": {
+              "count": 172,
+              "time": 13
+            },
+            "MapShrink": {
+              "count": 2,
+              "time": 7
+            },
+            "SetShrink": {
+              "count": 1,
+              "time": 1
+            },
+            "LoadAccessorProperty": {
+              "count": 5798,
+              "time": 4324
+            },
+            "BytecodeBudgetInterrupt": {
+              "count": 57,
+              "time": 4623
+            },
+            "StringToLowerCaseIntl": {
+              "count": 88,
+              "time": 50
+            },
+            "StringToUpperCaseIntl": {
+              "count": 519,
+              "time": 566
+            },
+            "HasProperty": {
+              "count": 308,
+              "time": 283
+            },
+            "SetDataProperties": {
+              "count": 606,
+              "time": 14486
+            },
+            "RegExpExecMultiple": {
+              "count": 34,
+              "time": 311
+            },
+            "StringReplaceNonGlobalRegExpWithFunction": {
+              "count": 17,
+              "time": 67
+            },
+            "StringAdd": {
+              "count": 24,
+              "time": 10
+            },
+            "StringBuilderConcat": {
+              "count": 21,
+              "time": 8
+            },
+            "StringCharCodeAt": {
+              "count": 3,
+              "time": 4
+            },
+            "ArrayPop": {
+              "count": 10,
+              "time": 10
+            },
+            "ArrayBufferConstructor": {
+              "count": 1,
+              "time": 8137
+            },
+            "MapPrototypeClear": {
+              "count": 49,
+              "time": 595
+            },
+            "NumberPrototypeToString": {
+              "count": 51,
+              "time": 434
+            },
+            "ObjectIsFrozen": {
+              "count": 4,
+              "time": 8
+            },
+            "SetPrototypeClear": {
+              "count": 1,
+              "time": 3
+            },
+            "StringPrototypeToUpperCaseIntl": {
+              "count": 104,
+              "time": 40
+            }
+          },
+          "GC": {
+            "GC_Custom_SlowAllocateRaw": {
+              "count": 27,
+              "time": 2432
+            },
+            "GC_HEAP_EPILOGUE": {
+              "count": 8,
+              "time": 31
+            },
+            "GC_HEAP_EPILOGUE_REDUCE_NEW_SPACE": {
+              "count": 8,
+              "time": 1
+            },
+            "GC_HEAP_EXTERNAL_EPILOGUE": {
+              "count": 8,
+              "time": 3
+            },
+            "GC_HEAP_EXTERNAL_PROLOGUE": {
+              "count": 8,
+              "time": 3
+            },
+            "GC_HEAP_EXTERNAL_WEAK_GLOBAL_HANDLES": {
+              "count": 16,
+              "time": 36
+            },
+            "GC_HEAP_PROLOGUE": {
+              "count": 8,
+              "time": 728
+            },
+            "GC_SCAVENGER_SCAVENGE": {
+              "count": 8,
+              "time": 4081
+            },
+            "GC_SCAVENGER_PROCESS_ARRAY_BUFFERS": {
+              "count": 8,
+              "time": 16
+            },
+            "GC_SCAVENGER_SCAVENGE_WEAK_GLOBAL_HANDLES_IDENTIFY": {
+              "count": 8,
+              "time": 1218
+            },
+            "GC_SCAVENGER_SCAVENGE_WEAK_GLOBAL_HANDLES_PROCESS": {
+              "count": 8,
+              "time": 115
+            },
+            "GC_SCAVENGER_SCAVENGE_PARALLEL": {
+              "count": 8,
+              "time": 15829
+            },
+            "GC_SCAVENGER_SCAVENGE_ROOTS": {
+              "count": 8,
+              "time": 2135
+            },
+            "GC_SCAVENGER_SCAVENGE_UPDATE_REFS": {
+              "count": 8,
+              "time": 8
+            },
+            "GC_SCAVENGER_SCAVENGE_FINALIZE": {
+              "count": 8,
+              "time": 2724
+            },
+            "GC_BACKGROUND_ARRAY_BUFFER_FREE": {
+              "count": 8,
+              "time": 3
+            },
+            "GC_BACKGROUND_STORE_BUFFER": {
+              "count": 25,
+              "time": 987
+            },
+            "GC_SCAVENGER_BACKGROUND_SCAVENGE_PARALLEL": {
+              "count": 20,
+              "time": 29999
+            }
+          },
+          "API": {
+            "API_Context_New": {
+              "count": 1,
+              "time": 682
+            },
+            "API_FunctionTemplate_New": {
+              "count": 913,
+              "time": 240
+            },
+            "API_ObjectTemplate_New": {
+              "count": 65,
+              "time": 351
+            },
+            "API_TracedGlobal_New": {
+              "count": 2923,
+              "time": 1948
+            },
+            "API_Function_NewInstance": {
+              "count": 17,
+              "time": 6
+            },
+            "API_External_New": {
+              "count": 1,
+              "time": 0
+            },
+            "API_FunctionTemplate_GetFunction": {
+              "count": 50,
+              "time": 1218
+            },
+            "API_Object_CreateDataProperty": {
+              "count": 13,
+              "time": 5
+            },
+            "API_Object_DefineOwnProperty": {
+              "count": 6,
+              "time": 4
+            },
+            "API_Object_Get": {
+              "count": 52,
+              "time": 15
+            },
+            "API_Object_HasOwnProperty": {
+              "count": 2,
+              "time": 0
+            },
+            "API_Object_New": {
+              "count": 2,
+              "time": 0
+            },
+            "API_Object_SetPrivate": {
+              "count": 3,
+              "time": 3
+            },
+            "API_Object_SetPrototype": {
+              "count": 21,
+              "time": 17
+            },
+            "API_Persistent_New": {
+              "count": 58,
+              "time": 13
+            },
+            "API_Script_Run": {
+              "count": 2,
+              "time": 4
+            },
+            "API_String_NewExternalOneByte": {
+              "count": 10,
+              "time": 3
+            },
+            "API_String_NewFromOneByte": {
+              "count": 1369,
+              "time": 911
+            },
+            "API_String_Write": {
+              "count": 959,
+              "time": 385
+            }
+          },
+          "Compile": {
+            "CompileIgnitionFinalization": {
+              "count": 2131,
+              "time": 18632
+            },
+            "CompileAnalyse": {
+              "count": 2104,
+              "time": 903
+            },
+            "CompileFunction": {
+              "count": 2103,
+              "time": 47229
+            },
+            "CompileIgnition": {
+              "count": 2129,
+              "time": 54897
+            },
+            "CompileRewriteReturnResult": {
+              "count": 2104,
+              "time": 59
+            },
+            "CompileScopeAnalysis": {
+              "count": 2104,
+              "time": 6989
+            },
+            "CompileLazy": {
+              "count": 1937,
+              "time": 7816
+            },
+            "CompileScript": {
+              "count": 1,
+              "time": 22
+            },
+            "API_ScriptCompiler_CompileUnbound": {
+              "count": 1,
+              "time": 27
+            },
+            "CompileForOnStackReplacement": {
+              "count": 1,
+              "time": 9
+            },
+            "RegExpInitializeAndCompile": {
+              "count": 1,
+              "time": 5
+            }
+          },
+          "JavaScript": {
+            "JS_Execution": {
+              "count": 333,
+              "time": 543305
+            }
+          },
+          "Parse": {
+            "ParseFunction": {
+              "count": 2104,
+              "time": 10013
+            },
+            "ParseFunctionLiteral": {
+              "count": 2129,
+              "time": 60286
+            },
+            "PreParseWithVariableResolution": {
+              "count": 4822,
+              "time": 10568
+            },
+            "ParseProgram": {
+              "count": 1,
+              "time": 775
+            },
+            "JsonParse": {
+              "count": 8,
+              "time": 391
+            }
+          },
+          "IC": {
+            "ElementsTransitionAndStoreIC_Miss": {
+              "count": 1,
+              "time": 2
+            },
+            "KeyedStoreIC_Miss": {
+              "count": 170,
+              "time": 897
+            },
+            "LoadGlobalIC_Miss": {
+              "count": 365,
+              "time": 797
+            },
+            "LoadGlobalIC_Slow": {
+              "count": 8,
+              "time": 5
+            },
+            "StoreGlobalIC_Miss": {
+              "count": 12,
+              "time": 14
+            },
+            "StoreIC_Miss": {
+              "count": 631,
+              "time": 2757
+            },
+            "KeyedLoadIC_LoadElementDH": {
+              "count": 370,
+              "time": 2116
+            },
+            "KeyedStoreIC_ElementsTransitionAndStoreStub": {
+              "count": 2,
+              "time": 9
+            },
+            "KeyedStoreIC_StoreFastElementStub": {
+              "count": 229,
+              "time": 335
+            },
+            "LoadGlobalIC_LoadScriptContextField": {
+              "count": 1,
+              "time": 0
+            },
+            "LoadIC_FunctionPrototypeStub": {
+              "count": 137,
+              "time": 629
+            },
+            "LoadIC_LoadAccessorDH": {
+              "count": 49,
+              "time": 63
+            },
+            "LoadIC_LoadAccessorFromPrototypeDH": {
+              "count": 240,
+              "time": 1598
+            },
+            "LoadIC_LoadApiGetterFromPrototypeDH": {
+              "count": 17,
+              "time": 296
+            },
+            "LoadIC_LoadFieldDH": {
+              "count": 2127,
+              "time": 7474
+            },
+            "LoadIC_LoadFieldFromPrototypeDH": {
+              "count": 2015,
+              "time": 10401
+            },
+            "LoadIC_LoadNativeDataPropertyDH": {
+              "count": 2,
+              "time": 5
+            },
+            "LoadIC_LoadNonexistentDH": {
+              "count": 2615,
+              "time": 6179
+            },
+            "LoadIC_LoadNonMaskingInterceptorDH": {
+              "count": 9,
+              "time": 20
+            },
+            "LoadIC_LoadNormalDH": {
+              "count": 33,
+              "time": 28
+            },
+            "LoadIC_Premonomorphic": {
+              "count": 459,
+              "time": 1746
+            },
+            "LoadIC_SlowStub": {
+              "count": 18,
+              "time": 737
+            },
+            "StoreGlobalIC_Premonomorphic": {
+              "count": 1,
+              "time": 8
+            },
+            "StoreIC_Premonomorphic": {
+              "count": 3589,
+              "time": 15182
+            },
+            "StoreIC_StoreApiSetterOnPrototypeDH": {
+              "count": 3,
+              "time": 185
+            },
+            "StoreIC_StoreFieldDH": {
+              "count": 791,
+              "time": 7054
+            },
+            "StoreIC_StoreNativeDataPropertyDH": {
+              "count": 6,
+              "time": 5
+            },
+            "LoadIC_LoadGlobalDH": {
+              "count": 3,
+              "time": 3
+            },
+            "LoadIC_StringLength": {
+              "count": 12,
+              "time": 14
+            },
+            "StoreIC_SlowStub": {
+              "count": 1,
+              "time": 2
+            },
+            "StoreIC_StoreNormalDH": {
+              "count": 4,
+              "time": 4
+            },
+            "KeyedLoadIC_Miss": {
+              "count": 2,
+              "time": 4
+            },
+            "LoadIC_Miss": {
+              "count": 1,
+              "time": 3
+            },
+            "KeyedLoadIC_LoadIndexedStringDH": {
+              "count": 1,
+              "time": 4
+            },
+            "StoreIC_StoreAccessorOnPrototypeDH": {
+              "count": 4,
+              "time": 7
+            }
+          },
+          "Optimize": {
+            "CompileGetFromOptimizedCodeMap": {
+              "count": 65,
+              "time": 3
+            },
+            "DeoptimizeCode": {
+              "count": 2,
+              "time": 31
+            },
+            "OptimizeCode": {
+              "count": 65,
+              "time": 2793
+            },
+            "RecompileSynchronous": {
+              "count": 129,
+              "time": 83110
+            },
+            "CompileOptimized_Concurrent": {
+              "count": 64,
+              "time": 52
+            },
+            "NotifyDeoptimized": {
+              "count": 2,
+              "time": 36
+            },
+            "StackGuard": {
+              "count": 63,
+              "time": 5461
+            },
+            "RecompileConcurrent": {
+              "count": 62,
+              "time": 49232
+            }
+          }
+        }
+      },
+      {
+        "duration": 1331934,
+        "js": 1135267,
+        "phases": [
+          {
+            "phase": "navigationStart",
+            "start": 0,
+            "duration": 294
+          },
+          {
+            "phase": "fetchStart",
+            "start": 294,
+            "duration": 9781
+          },
+          {
+            "phase": "domLoading",
+            "start": 10075,
+            "duration": 1189515
+          },
+          {
+            "phase": "domInteractive",
+            "start": 1199590,
+            "duration": 83736
+          },
+          {
+            "phase": "domComplete",
+            "start": 1283326,
+            "duration": 48608
+          }
+        ],
+        "gc": [
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 58639
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 179198,
+            "duration": 5508,
+            "usedHeapSizeAfter": 3197664,
+            "usedHeapSizeBefore": 3604824
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 179198,
+            "usedHeapSizeBefore": 3604824
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 222882,
+            "duration": 5547,
+            "usedHeapSizeAfter": 3766824,
+            "usedHeapSizeBefore": 4030192
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 222882,
+            "usedHeapSizeBefore": 4030192
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 290845,
+            "duration": 2395,
+            "usedHeapSizeAfter": 4996784,
+            "usedHeapSizeBefore": 5391320
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 290845,
+            "usedHeapSizeBefore": 5391320
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 506509,
+            "duration": 2550,
+            "usedHeapSizeAfter": 6821800,
+            "usedHeapSizeBefore": 7874888
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 506509,
+            "usedHeapSizeBefore": 7874888
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 588255
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 589883
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 599635,
+            "duration": 2586,
+            "usedHeapSizeAfter": 7129896,
+            "usedHeapSizeBefore": 8353984
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 599635,
+            "usedHeapSizeBefore": 8353984
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 613000
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 613377
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 627860
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 629559
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 633263
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 634348
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 638093
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 638694
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 647503
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 651902
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 653786
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 657355
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 659074
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 668174
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 669254
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 679521
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 712332,
+            "duration": 1859,
+            "usedHeapSizeAfter": 7619720,
+            "usedHeapSizeBefore": 8997944
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 712332,
+            "usedHeapSizeBefore": 8997944
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 789011
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 794205
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 822894
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 842934
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 854377
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 875211
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 876582
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 880761
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 883784
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 915425
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 916703
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 917386
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 929461
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 932619
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 934553,
+            "duration": 3055,
+            "usedHeapSizeAfter": 8916960,
+            "usedHeapSizeBefore": 11463880
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 934553,
+            "usedHeapSizeBefore": 11463880
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 984604
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 985355
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 986559
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1014194
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1015390
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1016561
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1080593
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1083074
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1084616
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1085842
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1087974
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1090335
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1092070
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1093734
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1095725
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 1106340,
+            "duration": 3893,
+            "usedHeapSizeAfter": 9900144,
+            "usedHeapSizeBefore": 11894920
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 1106340,
+            "usedHeapSizeBefore": 11894920
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1123264
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1132205
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1136986
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 1149324
+          }
+        ],
+        "blinkGC": [],
+        "runtimeCallStats": {
+          "Compile-Background": {
+            "CompileBackgroundAnalyse": {
+              "count": 1,
+              "time": 0
+            },
+            "CompileBackgroundCompileTask": {
+              "count": 1,
+              "time": 20
+            },
+            "CompileBackgroundIgnition": {
+              "count": 2,
+              "time": 140
+            },
+            "CompileBackgroundRewriteReturnResult": {
+              "count": 1,
+              "time": 1
+            },
+            "CompileBackgroundScopeAnalysis": {
+              "count": 1,
+              "time": 7
+            },
+            "CompileBackgroundScript": {
+              "count": 1,
+              "time": 18
+            }
+          },
+          "Blink C++": {
+            "GetMoreDataCallback": {
+              "count": 4,
+              "time": 382
+            },
+            "FunctionCallback": {
+              "count": 12254,
+              "time": 36699
+            },
+            "AccessorGetterCallback": {
+              "count": 557,
+              "time": 643
+            },
+            "AccessorSetterCallback": {
+              "count": 368,
+              "time": 46
+            },
+            "GCEpilogueCallback": {
+              "count": 8,
+              "time": 580
+            },
+            "GCPrologueCallback": {
+              "count": 8,
+              "time": 115
+            },
+            "NamedGetterCallback": {
+              "count": 19,
+              "time": 71
+            },
+            "LoadCallbackProperty": {
+              "count": 3,
+              "time": 2
+            },
+            "StoreCallbackProperty": {
+              "count": 338,
+              "time": 1527
+            }
+          },
+          "Parse-Background": {
+            "ParseBackgroundFunctionLiteral": {
+              "count": 1,
+              "time": 13
+            },
+            "ParseBackgroundProgram": {
+              "count": 1,
+              "time": 238
+            },
+            "PreParseBackgroundWithVariableResolution": {
+              "count": 5503,
+              "time": 17846
+            }
+          },
+          "V8 C++": {
+            "DeserializeContext": {
+              "count": 1,
+              "time": 3862
+            },
+            "Genesis": {
+              "count": 1,
+              "time": 123
+            },
+            "Map_SetPrototype": {
+              "count": 7467,
+              "time": 1322
+            },
+            "Map_TransitionToDataProperty": {
+              "count": 11264,
+              "time": 19709
+            },
+            "PrototypeMap_TransitionToAccessorProperty": {
+              "count": 29,
+              "time": 43
+            },
+            "PrototypeMap_TransitionToDataProperty": {
+              "count": 460,
+              "time": 2030
+            },
+            "Invoke": {
+              "count": 350,
+              "time": 77
+            },
+            "InvokeApiFunction": {
+              "count": 71,
+              "time": 44
+            },
+            "ArrayLengthGetter": {
+              "count": 165,
+              "time": 7
+            },
+            "ArrayLengthSetter": {
+              "count": 138,
+              "time": 279
+            },
+            "FunctionLengthGetter": {
+              "count": 7,
+              "time": 1
+            },
+            "FunctionPrototypeGetter": {
+              "count": 348,
+              "time": 2177
+            },
+            "FunctionPrototypeSetter": {
+              "count": 230,
+              "time": 2479
+            },
+            "Map_TransitionToAccessorProperty": {
+              "count": 182,
+              "time": 1432
+            },
+            "TransitionElementsKindWithKind": {
+              "count": 2,
+              "time": 3
+            },
+            "SetGrow": {
+              "count": 22,
+              "time": 13
+            },
+            "WeakCollectionSet": {
+              "count": 666,
+              "time": 1182
+            },
+            "ForInEnumerate": {
+              "count": 722,
+              "time": 2300
+            },
+            "AllocateInYoungGeneration": {
+              "count": 65,
+              "time": 1373
+            },
+            "OrdinaryHasInstance": {
+              "count": 2,
+              "time": 12
+            },
+            "CreateArrayLiteral": {
+              "count": 285,
+              "time": 157
+            },
+            "CreateArrayLiteralWithoutAllocationSite": {
+              "count": 86,
+              "time": 4
+            },
+            "CreateObjectLiteral": {
+              "count": 1002,
+              "time": 3583
+            },
+            "CreateObjectLiteralWithoutAllocationSite": {
+              "count": 2,
+              "time": 14
+            },
+            "CreateRegExpLiteral": {
+              "count": 93,
+              "time": 785
+            },
+            "NumberToString": {
+              "count": 679,
+              "time": 3178
+            },
+            "AddDictionaryProperty": {
+              "count": 2045,
+              "time": 3997
+            },
+            "CompleteInobjectSlackTrackingForMap": {
+              "count": 59,
+              "time": 18
+            },
+            "DefineAccessorPropertyUnchecked": {
+              "count": 22,
+              "time": 12
+            },
+            "GetProperty": {
+              "count": 586,
+              "time": 1003
+            },
+            "NewObject": {
+              "count": 216,
+              "time": 363
+            },
+            "ObjectCreate": {
+              "count": 220,
+              "time": 4532
+            },
+            "ObjectKeys": {
+              "count": 94,
+              "time": 1359
+            },
+            "SetKeyedProperty": {
+              "count": 1906,
+              "time": 4614
+            },
+            "SetNamedProperty": {
+              "count": 1,
+              "time": 3
+            },
+            "RegExpExec": {
+              "count": 60,
+              "time": 1124
+            },
+            "StringSplit": {
+              "count": 490,
+              "time": 1325
+            },
+            "DeclareGlobals": {
+              "count": 1,
+              "time": 11
+            },
+            "NewClosure": {
+              "count": 95,
+              "time": 14
+            },
+            "NewClosure_Tenured": {
+              "count": 2020,
+              "time": 2005
+            },
+            "PushBlockContext": {
+              "count": 1,
+              "time": 4
+            },
+            "StringEqual": {
+              "count": 53,
+              "time": 16
+            },
+            "StringIndexOfUnchecked": {
+              "count": 4,
+              "time": 9
+            },
+            "HandleApiCall": {
+              "count": 6385,
+              "time": 5051
+            },
+            "ArrayConcat": {
+              "count": 127,
+              "time": 111
+            },
+            "ArrayUnshift": {
+              "count": 7,
+              "time": 9
+            },
+            "BooleanConstructor": {
+              "count": 58,
+              "time": 6
+            },
+            "DateNow": {
+              "count": 28,
+              "time": 637
+            },
+            "FunctionPrototypeToString": {
+              "count": 55,
+              "time": 29
+            },
+            "ObjectDefineProperties": {
+              "count": 2,
+              "time": 25
+            },
+            "ObjectDefineProperty": {
+              "count": 396,
+              "time": 308
+            },
+            "ObjectFreeze": {
+              "count": 23,
+              "time": 20
+            },
+            "ObjectGetOwnPropertyDescriptors": {
+              "count": 78,
+              "time": 2824
+            },
+            "ObjectGetPrototypeOf": {
+              "count": 1838,
+              "time": 1448
+            },
+            "ObjectSetPrototypeOf": {
+              "count": 208,
+              "time": 570
+            },
+            "ObjectIsExtensible": {
+              "count": 5,
+              "time": 4
+            },
+            "SymbolConstructor": {
+              "count": 1,
+              "time": 4
+            },
+            "Object_DeleteProperty": {
+              "count": 1,
+              "time": 2
+            },
+            "StringLengthGetter": {
+              "count": 19,
+              "time": 4
+            },
+            "MapGrow": {
+              "count": 22,
+              "time": 38
+            },
+            "AllocateInOldGeneration": {
+              "count": 1,
+              "time": 551
+            },
+            "ThrowConstructedNonConstructable": {
+              "count": 1,
+              "time": 70
+            },
+            "UnwindAndFindExceptionHandler": {
+              "count": 1,
+              "time": 5
+            },
+            "DeleteProperty": {
+              "count": 1,
+              "time": 4
+            },
+            "RegExpReplaceRT": {
+              "count": 226,
+              "time": 2490
+            },
+            "PushCatchContext": {
+              "count": 1,
+              "time": 2
+            },
+            "GlobalDecodeURIComponent": {
+              "count": 1,
+              "time": 8
+            },
+            "ObjectPrototypeSetProto": {
+              "count": 6,
+              "time": 9
+            },
+            "StringPrototypeLastIndexOf": {
+              "count": 172,
+              "time": 9
+            },
+            "MapShrink": {
+              "count": 2,
+              "time": 3
+            },
+            "SetShrink": {
+              "count": 1,
+              "time": 1
+            },
+            "LoadAccessorProperty": {
+              "count": 5798,
+              "time": 2748
+            },
+            "BytecodeBudgetInterrupt": {
+              "count": 55,
+              "time": 5396
+            },
+            "StringToLowerCaseIntl": {
+              "count": 88,
+              "time": 40
+            },
+            "HasProperty": {
+              "count": 309,
+              "time": 475
+            },
+            "SetDataProperties": {
+              "count": 606,
+              "time": 11859
+            },
+            "RegExpExecMultiple": {
+              "count": 34,
+              "time": 563
+            },
+            "StringReplaceNonGlobalRegExpWithFunction": {
+              "count": 17,
+              "time": 70
+            },
+            "StringAdd": {
+              "count": 24,
+              "time": 6
+            },
+            "StringBuilderConcat": {
+              "count": 21,
+              "time": 8
+            },
+            "StringCharCodeAt": {
+              "count": 3,
+              "time": 4
+            },
+            "ArrayPop": {
+              "count": 10,
+              "time": 10
+            },
+            "ArrayBufferConstructor": {
+              "count": 1,
+              "time": 8067
+            },
+            "MapPrototypeClear": {
+              "count": 49,
+              "time": 18
+            },
+            "NumberPrototypeToString": {
+              "count": 51,
+              "time": 60
+            },
+            "ObjectIsFrozen": {
+              "count": 4,
+              "time": 9
+            },
+            "SetPrototypeClear": {
+              "count": 1,
+              "time": 3
+            },
+            "StringPrototypeToUpperCaseIntl": {
+              "count": 623,
+              "time": 1962
+            }
+          },
+          "GC": {
+            "GC_Custom_SlowAllocateRaw": {
+              "count": 26,
+              "time": 1637
+            },
+            "GC_HEAP_EPILOGUE": {
+              "count": 8,
+              "time": 32
+            },
+            "GC_HEAP_EPILOGUE_REDUCE_NEW_SPACE": {
+              "count": 8,
+              "time": 3
+            },
+            "GC_HEAP_EXTERNAL_EPILOGUE": {
+              "count": 8,
+              "time": 3
+            },
+            "GC_HEAP_EXTERNAL_PROLOGUE": {
+              "count": 8,
+              "time": 2
+            },
+            "GC_HEAP_EXTERNAL_WEAK_GLOBAL_HANDLES": {
+              "count": 16,
+              "time": 25
+            },
+            "GC_HEAP_PROLOGUE": {
+              "count": 8,
+              "time": 1396
+            },
+            "GC_SCAVENGER_SCAVENGE": {
+              "count": 8,
+              "time": 4726
+            },
+            "GC_SCAVENGER_PROCESS_ARRAY_BUFFERS": {
+              "count": 8,
+              "time": 19
+            },
+            "GC_SCAVENGER_SCAVENGE_WEAK_GLOBAL_HANDLES_IDENTIFY": {
+              "count": 8,
+              "time": 1410
+            },
+            "GC_SCAVENGER_SCAVENGE_WEAK_GLOBAL_HANDLES_PROCESS": {
+              "count": 8,
+              "time": 61
+            },
+            "GC_SCAVENGER_SCAVENGE_PARALLEL": {
+              "count": 8,
+              "time": 18219
+            },
+            "GC_SCAVENGER_SCAVENGE_ROOTS": {
+              "count": 8,
+              "time": 1013
+            },
+            "GC_SCAVENGER_SCAVENGE_UPDATE_REFS": {
+              "count": 8,
+              "time": 5
+            },
+            "GC_SCAVENGER_SCAVENGE_FINALIZE": {
+              "count": 8,
+              "time": 660
+            },
+            "GC_BACKGROUND_ARRAY_BUFFER_FREE": {
+              "count": 8,
+              "time": 5
+            },
+            "GC_BACKGROUND_STORE_BUFFER": {
+              "count": 25,
+              "time": 1333
+            },
+            "GC_SCAVENGER_BACKGROUND_SCAVENGE_PARALLEL": {
+              "count": 20,
+              "time": 31506
+            }
+          },
+          "API": {
+            "API_Context_New": {
+              "count": 1,
+              "time": 538
+            },
+            "API_FunctionTemplate_New": {
+              "count": 913,
+              "time": 634
+            },
+            "API_ObjectTemplate_New": {
+              "count": 65,
+              "time": 6
+            },
+            "API_TracedGlobal_New": {
+              "count": 2923,
+              "time": 1315
+            },
+            "API_Function_NewInstance": {
+              "count": 17,
+              "time": 5
+            },
+            "API_External_New": {
+              "count": 1,
+              "time": 0
+            },
+            "API_FunctionTemplate_GetFunction": {
+              "count": 50,
+              "time": 954
+            },
+            "API_Object_CreateDataProperty": {
+              "count": 13,
+              "time": 4
+            },
+            "API_Object_DefineOwnProperty": {
+              "count": 6,
+              "time": 3
+            },
+            "API_Object_Get": {
+              "count": 52,
+              "time": 427
+            },
+            "API_Object_HasOwnProperty": {
+              "count": 2,
+              "time": 0
+            },
+            "API_Object_New": {
+              "count": 2,
+              "time": 0
+            },
+            "API_Object_SetPrivate": {
+              "count": 3,
+              "time": 2
+            },
+            "API_Object_SetPrototype": {
+              "count": 21,
+              "time": 903
+            },
+            "API_Persistent_New": {
+              "count": 58,
+              "time": 9
+            },
+            "API_Script_Run": {
+              "count": 2,
+              "time": 3
+            },
+            "API_String_NewExternalOneByte": {
+              "count": 10,
+              "time": 5
+            },
+            "API_String_NewFromOneByte": {
+              "count": 1369,
+              "time": 743
+            },
+            "API_String_Write": {
+              "count": 959,
+              "time": 607
+            }
+          },
+          "Compile": {
+            "CompileIgnitionFinalization": {
+              "count": 2131,
+              "time": 12793
+            },
+            "CompileAnalyse": {
+              "count": 2104,
+              "time": 1857
+            },
+            "CompileFunction": {
+              "count": 2103,
+              "time": 58730
+            },
+            "CompileIgnition": {
+              "count": 2129,
+              "time": 54483
+            },
+            "CompileRewriteReturnResult": {
+              "count": 2104,
+              "time": 1331
+            },
+            "CompileScopeAnalysis": {
+              "count": 2104,
+              "time": 7614
+            },
+            "CompileLazy": {
+              "count": 1937,
+              "time": 6781
+            },
+            "CompileScript": {
+              "count": 1,
+              "time": 17
+            },
+            "API_ScriptCompiler_CompileUnbound": {
+              "count": 1,
+              "time": 615
+            },
+            "CompileForOnStackReplacement": {
+              "count": 1,
+              "time": 9
+            },
+            "RegExpInitializeAndCompile": {
+              "count": 1,
+              "time": 5
+            }
+          },
+          "JavaScript": {
+            "JS_Execution": {
+              "count": 333,
+              "time": 569283
+            }
+          },
+          "Parse": {
+            "ParseFunction": {
+              "count": 2104,
+              "time": 8161
+            },
+            "ParseFunctionLiteral": {
+              "count": 2129,
+              "time": 54656
+            },
+            "PreParseWithVariableResolution": {
+              "count": 4822,
+              "time": 8215
+            },
+            "ParseProgram": {
+              "count": 1,
+              "time": 33
+            },
+            "JsonParse": {
+              "count": 8,
+              "time": 102
+            }
+          },
+          "IC": {
+            "ElementsTransitionAndStoreIC_Miss": {
+              "count": 1,
+              "time": 3
+            },
+            "KeyedStoreIC_Miss": {
+              "count": 170,
+              "time": 1023
+            },
+            "LoadGlobalIC_Miss": {
+              "count": 365,
+              "time": 2453
+            },
+            "LoadGlobalIC_Slow": {
+              "count": 8,
+              "time": 6
+            },
+            "StoreGlobalIC_Miss": {
+              "count": 12,
+              "time": 11
+            },
+            "StoreIC_Miss": {
+              "count": 631,
+              "time": 3724
+            },
+            "KeyedLoadIC_LoadElementDH": {
+              "count": 370,
+              "time": 2979
+            },
+            "KeyedStoreIC_ElementsTransitionAndStoreStub": {
+              "count": 2,
+              "time": 10
+            },
+            "KeyedStoreIC_StoreFastElementStub": {
+              "count": 229,
+              "time": 617
+            },
+            "LoadGlobalIC_LoadScriptContextField": {
+              "count": 1,
+              "time": 1
+            },
+            "LoadIC_FunctionPrototypeStub": {
+              "count": 140,
+              "time": 917
+            },
+            "LoadIC_LoadAccessorDH": {
+              "count": 49,
+              "time": 51
+            },
+            "LoadIC_LoadAccessorFromPrototypeDH": {
+              "count": 240,
+              "time": 1737
+            },
+            "LoadIC_LoadApiGetterFromPrototypeDH": {
+              "count": 17,
+              "time": 41
+            },
+            "LoadIC_LoadFieldDH": {
+              "count": 2128,
+              "time": 9971
+            },
+            "LoadIC_LoadFieldFromPrototypeDH": {
+              "count": 2017,
+              "time": 8660
+            },
+            "LoadIC_LoadNativeDataPropertyDH": {
+              "count": 2,
+              "time": 6
+            },
+            "LoadIC_LoadNonexistentDH": {
+              "count": 2620,
+              "time": 6564
+            },
+            "LoadIC_LoadNonMaskingInterceptorDH": {
+              "count": 9,
+              "time": 21
+            },
+            "LoadIC_LoadNormalDH": {
+              "count": 33,
+              "time": 38
+            },
+            "LoadIC_Premonomorphic": {
+              "count": 459,
+              "time": 1372
+            },
+            "LoadIC_SlowStub": {
+              "count": 18,
+              "time": 55
+            },
+            "StoreGlobalIC_Premonomorphic": {
+              "count": 1,
+              "time": 8
+            },
+            "StoreIC_Premonomorphic": {
+              "count": 3589,
+              "time": 14003
+            },
+            "StoreIC_StoreApiSetterOnPrototypeDH": {
+              "count": 3,
+              "time": 495
+            },
+            "StoreIC_StoreFieldDH": {
+              "count": 791,
+              "time": 3609
+            },
+            "StoreIC_StoreNativeDataPropertyDH": {
+              "count": 6,
+              "time": 161
+            },
+            "LoadIC_LoadGlobalDH": {
+              "count": 3,
+              "time": 3
+            },
+            "LoadIC_StringLength": {
+              "count": 12,
+              "time": 14
+            },
+            "StoreIC_SlowStub": {
+              "count": 1,
+              "time": 1
+            },
+            "StoreIC_StoreNormalDH": {
+              "count": 4,
+              "time": 4
+            },
+            "KeyedLoadIC_Miss": {
+              "count": 2,
+              "time": 5
+            },
+            "LoadIC_Miss": {
+              "count": 1,
+              "time": 4
+            },
+            "KeyedLoadIC_LoadIndexedStringDH": {
+              "count": 1,
+              "time": 3
+            },
+            "StoreIC_StoreAccessorOnPrototypeDH": {
+              "count": 4,
+              "time": 5
+            }
+          },
+          "Optimize": {
+            "CompileGetFromOptimizedCodeMap": {
+              "count": 54,
+              "time": 2
+            },
+            "DeoptimizeCode": {
+              "count": 3,
+              "time": 51
+            },
+            "OptimizeCode": {
+              "count": 54,
+              "time": 2952
+            },
+            "RecompileSynchronous": {
+              "count": 107,
+              "time": 73980
+            },
+            "CompileOptimized_Concurrent": {
+              "count": 53,
+              "time": 47
+            },
+            "NotifyDeoptimized": {
+              "count": 3,
+              "time": 43
+            },
+            "StackGuard": {
+              "count": 53,
+              "time": 4652
+            },
+            "RecompileConcurrent": {
+              "count": 51,
+              "time": 46866
+            }
+          }
+        }
+      }
+    ],
+    "set": "control"
+  },
+  {
+    "meta": {
+      "browserVersion": "HeadlessChrome/76.0.3783.0",
+      "cpus": [
+        "Intel(R) Core(TM) i7-7920HQ CPU @ 3.10GHz",
+        "Intel(R) Core(TM) i7-7920HQ CPU @ 3.10GHz",
+        "Intel(R) Core(TM) i7-7920HQ CPU @ 3.10GHz",
+        "Intel(R) Core(TM) i7-7920HQ CPU @ 3.10GHz",
+        "Intel(R) Core(TM) i7-7920HQ CPU @ 3.10GHz",
+        "Intel(R) Core(TM) i7-7920HQ CPU @ 3.10GHz",
+        "Intel(R) Core(TM) i7-7920HQ CPU @ 3.10GHz",
+        "Intel(R) Core(TM) i7-7920HQ CPU @ 3.10GHz"
+      ]
+    },
+    "samples": [
+      {
+        "duration": 374703,
+        "js": 279478,
+        "phases": [
+          {
+            "phase": "navigationStart",
+            "start": 0,
+            "duration": 198
+          },
+          {
+            "phase": "fetchStart",
+            "start": 198,
+            "duration": 31369
+          },
+          {
+            "phase": "domLoading",
+            "start": 31567,
+            "duration": 296692
+          },
+          {
+            "phase": "domInteractive",
+            "start": 328259,
+            "duration": 34862
+          },
+          {
+            "phase": "domComplete",
+            "start": 363121,
+            "duration": 11582
+          }
+        ],
+        "gc": [
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 66600
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 96568,
+            "duration": 1134,
+            "usedHeapSizeAfter": 3197600,
+            "usedHeapSizeBefore": 3604792
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 96568,
+            "usedHeapSizeBefore": 3604792
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 106839,
+            "duration": 1222,
+            "usedHeapSizeAfter": 3766800,
+            "usedHeapSizeBefore": 4030192
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 106839,
+            "usedHeapSizeBefore": 4030192
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 124245,
+            "duration": 704,
+            "usedHeapSizeAfter": 4980216,
+            "usedHeapSizeBefore": 5391200
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 124245,
+            "usedHeapSizeBefore": 5391200
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 175625,
+            "duration": 1138,
+            "usedHeapSizeAfter": 6839680,
+            "usedHeapSizeBefore": 7888128
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 175625,
+            "usedHeapSizeBefore": 7888128
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 193856
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 194005
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 196292
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 196719,
+            "duration": 1218,
+            "usedHeapSizeAfter": 7160928,
+            "usedHeapSizeBefore": 8360424
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 196719,
+            "usedHeapSizeBefore": 8360424
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 196814
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 198902
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 199476
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 201075
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 201427
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 201608
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 202082
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 202889
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 204421
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 205924
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 206398
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 210165
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 211211
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 211569
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 211632
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 212194
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 214961
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 216322
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 218286
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 219156
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 219813
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 220622
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 220741
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 221101
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 221303
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 227221,
+            "duration": 1095,
+            "usedHeapSizeAfter": 7692224,
+            "usedHeapSizeBefore": 9067472
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 227221,
+            "usedHeapSizeBefore": 9067472
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 244190
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 244449
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 244601
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 244944
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 249567
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 254242
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 254846
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 257610
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 267925
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 272624
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 277019,
+            "duration": 1398,
+            "usedHeapSizeAfter": 9165008,
+            "usedHeapSizeBefore": 11496952
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 277019,
+            "usedHeapSizeBefore": 11496952
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 279475
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 282827
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 286327
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 290051
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 302888
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 302926
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 308848
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 309525
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 309929
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 313600,
+            "duration": 1910,
+            "usedHeapSizeAfter": 10212600,
+            "usedHeapSizeBefore": 11987296
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 313600,
+            "usedHeapSizeBefore": 11987296
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 317390
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 329116
+          }
+        ],
+        "blinkGC": [],
+        "runtimeCallStats": {
+          "Compile-Background": {
+            "CompileBackgroundAnalyse": {
+              "count": 1,
+              "time": 1
+            },
+            "CompileBackgroundCompileTask": {
+              "count": 1,
+              "time": 21
+            },
+            "CompileBackgroundIgnition": {
+              "count": 2,
+              "time": 142
+            },
+            "CompileBackgroundRewriteReturnResult": {
+              "count": 1,
+              "time": 1
+            },
+            "CompileBackgroundScopeAnalysis": {
+              "count": 1,
+              "time": 8
+            },
+            "CompileBackgroundScript": {
+              "count": 1,
+              "time": 18
+            }
+          },
+          "Blink C++": {
+            "GetMoreDataCallback": {
+              "count": 11,
+              "time": 4981
+            },
+            "FunctionCallback": {
+              "count": 12254,
+              "time": 8256
+            },
+            "AccessorGetterCallback": {
+              "count": 554,
+              "time": 274
+            },
+            "AccessorSetterCallback": {
+              "count": 368,
+              "time": 56
+            },
+            "GCEpilogueCallback": {
+              "count": 8,
+              "time": 159
+            },
+            "GCPrologueCallback": {
+              "count": 8,
+              "time": 97
+            },
+            "NamedGetterCallback": {
+              "count": 19,
+              "time": 53
+            },
+            "LoadCallbackProperty": {
+              "count": 3,
+              "time": 3
+            },
+            "StoreCallbackProperty": {
+              "count": 338,
+              "time": 113
+            }
+          },
+          "Parse-Background": {
+            "ParseBackgroundFunctionLiteral": {
+              "count": 1,
+              "time": 14
+            },
+            "ParseBackgroundProgram": {
+              "count": 1,
+              "time": 290
+            },
+            "PreParseBackgroundWithVariableResolution": {
+              "count": 5503,
+              "time": 18157
+            }
+          },
+          "V8 C++": {
+            "DeserializeContext": {
+              "count": 1,
+              "time": 835
+            },
+            "Genesis": {
+              "count": 1,
+              "time": 128
+            },
+            "Map_SetPrototype": {
+              "count": 7466,
+              "time": 571
+            },
+            "Map_TransitionToDataProperty": {
+              "count": 11264,
+              "time": 5182
+            },
+            "PrototypeMap_TransitionToAccessorProperty": {
+              "count": 29,
+              "time": 30
+            },
+            "PrototypeMap_TransitionToDataProperty": {
+              "count": 460,
+              "time": 417
+            },
+            "Invoke": {
+              "count": 347,
+              "time": 72
+            },
+            "InvokeApiFunction": {
+              "count": 71,
+              "time": 49
+            },
+            "ArrayLengthGetter": {
+              "count": 165,
+              "time": 31
+            },
+            "ArrayLengthSetter": {
+              "count": 138,
+              "time": 26
+            },
+            "FunctionLengthGetter": {
+              "count": 7,
+              "time": 1
+            },
+            "FunctionPrototypeGetter": {
+              "count": 345,
+              "time": 272
+            },
+            "FunctionPrototypeSetter": {
+              "count": 230,
+              "time": 239
+            },
+            "Map_TransitionToAccessorProperty": {
+              "count": 182,
+              "time": 193
+            },
+            "TransitionElementsKindWithKind": {
+              "count": 2,
+              "time": 3
+            },
+            "SetGrow": {
+              "count": 22,
+              "time": 18
+            },
+            "WeakCollectionSet": {
+              "count": 666,
+              "time": 717
+            },
+            "ForInEnumerate": {
+              "count": 722,
+              "time": 728
+            },
+            "AllocateInYoungGeneration": {
+              "count": 53,
+              "time": 181
+            },
+            "OrdinaryHasInstance": {
+              "count": 2,
+              "time": 11
+            },
+            "CreateArrayLiteral": {
+              "count": 285,
+              "time": 178
+            },
+            "CreateArrayLiteralWithoutAllocationSite": {
+              "count": 86,
+              "time": 11
+            },
+            "CreateObjectLiteral": {
+              "count": 1002,
+              "time": 850
+            },
+            "CreateObjectLiteralWithoutAllocationSite": {
+              "count": 2,
+              "time": 15
+            },
+            "CreateRegExpLiteral": {
+              "count": 93,
+              "time": 201
+            },
+            "NumberToString": {
+              "count": 678,
+              "time": 520
+            },
+            "AddDictionaryProperty": {
+              "count": 2045,
+              "time": 914
+            },
+            "CompleteInobjectSlackTrackingForMap": {
+              "count": 59,
+              "time": 14
+            },
+            "DefineAccessorPropertyUnchecked": {
+              "count": 22,
+              "time": 13
+            },
+            "GetProperty": {
+              "count": 586,
+              "time": 205
+            },
+            "NewObject": {
+              "count": 216,
+              "time": 371
+            },
+            "ObjectCreate": {
+              "count": 220,
+              "time": 619
+            },
+            "ObjectKeys": {
+              "count": 94,
+              "time": 145
+            },
+            "SetKeyedProperty": {
+              "count": 1906,
+              "time": 912
+            },
+            "SetNamedProperty": {
+              "count": 1,
+              "time": 4
+            },
+            "RegExpExec": {
+              "count": 60,
+              "time": 517
+            },
+            "StringSplit": {
+              "count": 490,
+              "time": 393
+            },
+            "DeclareGlobals": {
+              "count": 1,
+              "time": 11
+            },
+            "NewClosure": {
+              "count": 95,
+              "time": 16
+            },
+            "NewClosure_Tenured": {
+              "count": 2020,
+              "time": 403
+            },
+            "PushBlockContext": {
+              "count": 1,
+              "time": 5
+            },
+            "StringEqual": {
+              "count": 52,
+              "time": 73
+            },
+            "StringIndexOfUnchecked": {
+              "count": 4,
+              "time": 12
+            },
+            "HandleApiCall": {
+              "count": 6385,
+              "time": 1314
+            },
+            "ArrayConcat": {
+              "count": 127,
+              "time": 91
+            },
+            "ArrayUnshift": {
+              "count": 7,
+              "time": 11
+            },
+            "BooleanConstructor": {
+              "count": 58,
+              "time": 7
+            },
+            "DateNow": {
+              "count": 28,
+              "time": 31
+            },
+            "FunctionPrototypeToString": {
+              "count": 55,
+              "time": 29
+            },
+            "ObjectDefineProperties": {
+              "count": 2,
+              "time": 28
+            },
+            "ObjectDefineProperty": {
+              "count": 396,
+              "time": 345
+            },
+            "ObjectFreeze": {
+              "count": 23,
+              "time": 24
+            },
+            "ObjectGetOwnPropertyDescriptors": {
+              "count": 78,
+              "time": 492
+            },
+            "ObjectGetPrototypeOf": {
+              "count": 1838,
+              "time": 227
+            },
+            "ObjectSetPrototypeOf": {
+              "count": 208,
+              "time": 139
+            },
+            "ObjectIsExtensible": {
+              "count": 5,
+              "time": 5
+            },
+            "SymbolConstructor": {
+              "count": 1,
+              "time": 4
+            },
+            "Object_DeleteProperty": {
+              "count": 1,
+              "time": 5
+            },
+            "StringLengthGetter": {
+              "count": 19,
+              "time": 2
+            },
+            "MapGrow": {
+              "count": 22,
+              "time": 41
+            },
+            "AllocateInOldGeneration": {
+              "count": 1,
+              "time": 2
+            },
+            "ThrowConstructedNonConstructable": {
+              "count": 1,
+              "time": 70
+            },
+            "UnwindAndFindExceptionHandler": {
+              "count": 1,
+              "time": 6
+            },
+            "DeleteProperty": {
+              "count": 1,
+              "time": 4
+            },
+            "RegExpReplaceRT": {
+              "count": 226,
+              "time": 351
+            },
+            "PushCatchContext": {
+              "count": 1,
+              "time": 1
+            },
+            "GlobalDecodeURIComponent": {
+              "count": 1,
+              "time": 10
+            },
+            "ObjectPrototypeSetProto": {
+              "count": 6,
+              "time": 9
+            },
+            "StringPrototypeLastIndexOf": {
+              "count": 172,
+              "time": 11
+            },
+            "MapShrink": {
+              "count": 2,
+              "time": 6
+            },
+            "SetShrink": {
+              "count": 1,
+              "time": 2
+            },
+            "LoadAccessorProperty": {
+              "count": 5798,
+              "time": 564
+            },
+            "BytecodeBudgetInterrupt": {
+              "count": 52,
+              "time": 713
+            },
+            "StringToLowerCaseIntl": {
+              "count": 88,
+              "time": 35
+            },
+            "StringToUpperCaseIntl": {
+              "count": 517,
+              "time": 127
+            },
+            "HasProperty": {
+              "count": 309,
+              "time": 128
+            },
+            "SetDataProperties": {
+              "count": 606,
+              "time": 2452
+            },
+            "RegExpExecMultiple": {
+              "count": 34,
+              "time": 115
+            },
+            "StringReplaceNonGlobalRegExpWithFunction": {
+              "count": 17,
+              "time": 68
+            },
+            "StringAdd": {
+              "count": 24,
+              "time": 11
+            },
+            "StringBuilderConcat": {
+              "count": 21,
+              "time": 11
+            },
+            "StringCharCodeAt": {
+              "count": 3,
+              "time": 5
+            },
+            "ArrayPop": {
+              "count": 10,
+              "time": 9
+            },
+            "ArrayBufferConstructor": {
+              "count": 1,
+              "time": 2094
+            },
+            "MapPrototypeClear": {
+              "count": 49,
+              "time": 28
+            },
+            "NumberPrototypeToString": {
+              "count": 51,
+              "time": 65
+            },
+            "ObjectIsFrozen": {
+              "count": 4,
+              "time": 8
+            },
+            "SetPrototypeClear": {
+              "count": 1,
+              "time": 3
+            },
+            "StringPrototypeToUpperCaseIntl": {
+              "count": 106,
+              "time": 32
+            }
+          },
+          "GC": {
+            "GC_Custom_SlowAllocateRaw": {
+              "count": 26,
+              "time": 231
+            },
+            "GC_HEAP_EPILOGUE": {
+              "count": 8,
+              "time": 42
+            },
+            "GC_HEAP_EPILOGUE_REDUCE_NEW_SPACE": {
+              "count": 8,
+              "time": 2
+            },
+            "GC_HEAP_EXTERNAL_EPILOGUE": {
+              "count": 8,
+              "time": 5
+            },
+            "GC_HEAP_EXTERNAL_PROLOGUE": {
+              "count": 8,
+              "time": 1
+            },
+            "GC_HEAP_EXTERNAL_WEAK_GLOBAL_HANDLES": {
+              "count": 16,
+              "time": 57
+            },
+            "GC_HEAP_PROLOGUE": {
+              "count": 8,
+              "time": 213
+            },
+            "GC_SCAVENGER_SCAVENGE": {
+              "count": 8,
+              "time": 974
+            },
+            "GC_SCAVENGER_PROCESS_ARRAY_BUFFERS": {
+              "count": 8,
+              "time": 18
+            },
+            "GC_SCAVENGER_SCAVENGE_WEAK_GLOBAL_HANDLES_IDENTIFY": {
+              "count": 8,
+              "time": 222
+            },
+            "GC_SCAVENGER_SCAVENGE_WEAK_GLOBAL_HANDLES_PROCESS": {
+              "count": 8,
+              "time": 157
+            },
+            "GC_SCAVENGER_SCAVENGE_PARALLEL": {
+              "count": 8,
+              "time": 7434
+            },
+            "GC_SCAVENGER_SCAVENGE_ROOTS": {
+              "count": 8,
+              "time": 312
+            },
+            "GC_SCAVENGER_SCAVENGE_UPDATE_REFS": {
+              "count": 8,
+              "time": 6
+            },
+            "GC_SCAVENGER_SCAVENGE_FINALIZE": {
+              "count": 8,
+              "time": 383
+            },
+            "GC_BACKGROUND_ARRAY_BUFFER_FREE": {
+              "count": 8,
+              "time": 8
+            },
+            "GC_BACKGROUND_STORE_BUFFER": {
+              "count": 26,
+              "time": 549
+            },
+            "GC_SCAVENGER_BACKGROUND_SCAVENGE_PARALLEL": {
+              "count": 20,
+              "time": 17696
+            }
+          },
+          "API": {
+            "API_Context_New": {
+              "count": 1,
+              "time": 87
+            },
+            "API_FunctionTemplate_New": {
+              "count": 913,
+              "time": 270
+            },
+            "API_ObjectTemplate_New": {
+              "count": 65,
+              "time": 10
+            },
+            "API_TracedGlobal_New": {
+              "count": 2923,
+              "time": 354
+            },
+            "API_Function_NewInstance": {
+              "count": 17,
+              "time": 6
+            },
+            "API_External_New": {
+              "count": 1,
+              "time": 0
+            },
+            "API_FunctionTemplate_GetFunction": {
+              "count": 50,
+              "time": 373
+            },
+            "API_Object_CreateDataProperty": {
+              "count": 13,
+              "time": 2
+            },
+            "API_Object_DefineOwnProperty": {
+              "count": 6,
+              "time": 2
+            },
+            "API_Object_Get": {
+              "count": 52,
+              "time": 19
+            },
+            "API_Object_HasOwnProperty": {
+              "count": 2,
+              "time": 0
+            },
+            "API_Object_New": {
+              "count": 2,
+              "time": 0
+            },
+            "API_Object_SetPrivate": {
+              "count": 3,
+              "time": 3
+            },
+            "API_Object_SetPrototype": {
+              "count": 21,
+              "time": 24
+            },
+            "API_Persistent_New": {
+              "count": 58,
+              "time": 13
+            },
+            "API_Script_Run": {
+              "count": 2,
+              "time": 5
+            },
+            "API_String_NewExternalOneByte": {
+              "count": 10,
+              "time": 4
+            },
+            "API_String_NewFromOneByte": {
+              "count": 1369,
+              "time": 187
+            },
+            "API_String_Write": {
+              "count": 959,
+              "time": 148
+            }
+          },
+          "Compile": {
+            "CompileIgnitionFinalization": {
+              "count": 2131,
+              "time": 3863
+            },
+            "CompileAnalyse": {
+              "count": 2104,
+              "time": 292
+            },
+            "CompileFunction": {
+              "count": 2103,
+              "time": 13758
+            },
+            "CompileIgnition": {
+              "count": 2129,
+              "time": 13125
+            },
+            "CompileRewriteReturnResult": {
+              "count": 2104,
+              "time": 79
+            },
+            "CompileScopeAnalysis": {
+              "count": 2104,
+              "time": 1305
+            },
+            "CompileLazy": {
+              "count": 1937,
+              "time": 2049
+            },
+            "CompileScript": {
+              "count": 1,
+              "time": 20
+            },
+            "API_ScriptCompiler_CompileUnbound": {
+              "count": 1,
+              "time": 27
+            },
+            "CompileForOnStackReplacement": {
+              "count": 1,
+              "time": 8
+            },
+            "RegExpInitializeAndCompile": {
+              "count": 1,
+              "time": 5
+            }
+          },
+          "JavaScript": {
+            "JS_Execution": {
+              "count": 330,
+              "time": 118564
+            }
+          },
+          "Parse": {
+            "ParseFunction": {
+              "count": 2104,
+              "time": 2126
+            },
+            "ParseFunctionLiteral": {
+              "count": 2129,
+              "time": 13893
+            },
+            "PreParseWithVariableResolution": {
+              "count": 4822,
+              "time": 2069
+            },
+            "ParseProgram": {
+              "count": 1,
+              "time": 34
+            },
+            "JsonParse": {
+              "count": 8,
+              "time": 85
+            }
+          },
+          "IC": {
+            "ElementsTransitionAndStoreIC_Miss": {
+              "count": 1,
+              "time": 2
+            },
+            "KeyedStoreIC_Miss": {
+              "count": 170,
+              "time": 243
+            },
+            "LoadGlobalIC_Miss": {
+              "count": 365,
+              "time": 217
+            },
+            "LoadGlobalIC_Slow": {
+              "count": 8,
+              "time": 4
+            },
+            "StoreGlobalIC_Miss": {
+              "count": 12,
+              "time": 10
+            },
+            "StoreIC_Miss": {
+              "count": 631,
+              "time": 900
+            },
+            "KeyedLoadIC_LoadElementDH": {
+              "count": 369,
+              "time": 354
+            },
+            "KeyedStoreIC_ElementsTransitionAndStoreStub": {
+              "count": 2,
+              "time": 10
+            },
+            "KeyedStoreIC_StoreFastElementStub": {
+              "count": 229,
+              "time": 326
+            },
+            "LoadGlobalIC_LoadScriptContextField": {
+              "count": 1,
+              "time": 0
+            },
+            "LoadIC_FunctionPrototypeStub": {
+              "count": 137,
+              "time": 215
+            },
+            "LoadIC_LoadAccessorDH": {
+              "count": 49,
+              "time": 86
+            },
+            "LoadIC_LoadAccessorFromPrototypeDH": {
+              "count": 237,
+              "time": 378
+            },
+            "LoadIC_LoadApiGetterFromPrototypeDH": {
+              "count": 17,
+              "time": 36
+            },
+            "LoadIC_LoadFieldDH": {
+              "count": 2128,
+              "time": 1479
+            },
+            "LoadIC_LoadFieldFromPrototypeDH": {
+              "count": 2014,
+              "time": 2108
+            },
+            "LoadIC_LoadNativeDataPropertyDH": {
+              "count": 2,
+              "time": 4
+            },
+            "LoadIC_LoadNonexistentDH": {
+              "count": 2614,
+              "time": 1457
+            },
+            "LoadIC_LoadNonMaskingInterceptorDH": {
+              "count": 9,
+              "time": 17
+            },
+            "LoadIC_LoadNormalDH": {
+              "count": 33,
+              "time": 29
+            },
+            "LoadIC_Premonomorphic": {
+              "count": 459,
+              "time": 499
+            },
+            "LoadIC_SlowStub": {
+              "count": 18,
+              "time": 48
+            },
+            "StoreGlobalIC_Premonomorphic": {
+              "count": 1,
+              "time": 8
+            },
+            "StoreIC_Premonomorphic": {
+              "count": 3589,
+              "time": 3554
+            },
+            "StoreIC_StoreApiSetterOnPrototypeDH": {
+              "count": 3,
+              "time": 42
+            },
+            "StoreIC_StoreFieldDH": {
+              "count": 791,
+              "time": 1260
+            },
+            "StoreIC_StoreNativeDataPropertyDH": {
+              "count": 6,
+              "time": 10
+            },
+            "LoadIC_LoadGlobalDH": {
+              "count": 3,
+              "time": 3
+            },
+            "LoadIC_StringLength": {
+              "count": 12,
+              "time": 10
+            },
+            "StoreIC_SlowStub": {
+              "count": 1,
+              "time": 0
+            },
+            "StoreIC_StoreNormalDH": {
+              "count": 4,
+              "time": 3
+            },
+            "KeyedLoadIC_Miss": {
+              "count": 2,
+              "time": 5
+            },
+            "LoadIC_Miss": {
+              "count": 1,
+              "time": 4
+            },
+            "KeyedLoadIC_LoadIndexedStringDH": {
+              "count": 1,
+              "time": 4
+            },
+            "StoreIC_StoreAccessorOnPrototypeDH": {
+              "count": 4,
+              "time": 6
+            }
+          },
+          "Optimize": {
+            "CompileGetFromOptimizedCodeMap": {
+              "count": 53,
+              "time": 5
+            },
+            "DeoptimizeCode": {
+              "count": 3,
+              "time": 49
+            },
+            "OptimizeCode": {
+              "count": 53,
+              "time": 626
+            },
+            "RecompileSynchronous": {
+              "count": 104,
+              "time": 20759
+            },
+            "CompileOptimized_Concurrent": {
+              "count": 52,
+              "time": 35
+            },
+            "NotifyDeoptimized": {
+              "count": 3,
+              "time": 45
+            },
+            "StackGuard": {
+              "count": 51,
+              "time": 1823
+            },
+            "RecompileConcurrent": {
+              "count": 49,
+              "time": 54062
+            }
+          }
+        }
+      },
+      {
+        "duration": 363050,
+        "js": 291443,
+        "phases": [
+          {
+            "phase": "navigationStart",
+            "start": 0,
+            "duration": 168
+          },
+          {
+            "phase": "fetchStart",
+            "start": 168,
+            "duration": 4762
+          },
+          {
+            "phase": "domLoading",
+            "start": 4930,
+            "duration": 312393
+          },
+          {
+            "phase": "domInteractive",
+            "start": 317323,
+            "duration": 34394
+          },
+          {
+            "phase": "domComplete",
+            "start": 351717,
+            "duration": 11333
+          }
+        ],
+        "gc": [
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 45700
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 76096,
+            "duration": 1209,
+            "usedHeapSizeAfter": 3197600,
+            "usedHeapSizeBefore": 3604792
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 76096,
+            "usedHeapSizeBefore": 3604792
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 86377,
+            "duration": 1184,
+            "usedHeapSizeAfter": 3766800,
+            "usedHeapSizeBefore": 4030192
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 86377,
+            "usedHeapSizeBefore": 4030192
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 102633,
+            "duration": 694,
+            "usedHeapSizeAfter": 4988160,
+            "usedHeapSizeBefore": 5391200
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 102633,
+            "usedHeapSizeBefore": 5391200
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 151140,
+            "duration": 969,
+            "usedHeapSizeAfter": 6829792,
+            "usedHeapSizeBefore": 7880592
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 151140,
+            "usedHeapSizeBefore": 7880592
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 173017
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 173167
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 173871
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 174342
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 175111
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 175715
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 176134,
+            "duration": 1082,
+            "usedHeapSizeAfter": 7151376,
+            "usedHeapSizeBefore": 8359344
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 176134,
+            "usedHeapSizeBefore": 8359344
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 179701
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 179817
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 180208
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 180507
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 183412
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 185502
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 185983
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 186731
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 187997
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 190480
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 190956
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 191500
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 192706
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 193427
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 196888
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 197505
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 198153
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 199867
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 202789
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 203326
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 203737
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 204379
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 205285,
+            "duration": 956,
+            "usedHeapSizeAfter": 7624728,
+            "usedHeapSizeBefore": 9046320
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 205285,
+            "usedHeapSizeBefore": 9046320
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 225936
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 226759
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 227138
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 233030
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 237879
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 241363
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 242322
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 253735
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 254607,
+            "duration": 1419,
+            "usedHeapSizeAfter": 8960416,
+            "usedHeapSizeBefore": 11454664
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 254607,
+            "usedHeapSizeBefore": 11454664
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 257357
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 257886
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 258268
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 258718
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 260487
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 260906
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 267044
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 269402
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 274880
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 275626
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 276290
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 278436
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 289073
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 290151
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 291142
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 292495
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 293090
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 293417
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 296632,
+            "duration": 1849,
+            "usedHeapSizeAfter": 9963168,
+            "usedHeapSizeBefore": 11910896
+          },
+          {
+            "kind": "MinorGC",
+            "type": "scavenge",
+            "start": 296632,
+            "usedHeapSizeBefore": 11910896
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 305253
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 305308
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 308614
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 309397
+          },
+          {
+            "kind": "V8.RuntimeStats",
+            "start": 316834
+          }
+        ],
+        "blinkGC": [],
+        "runtimeCallStats": {
+          "Compile-Background": {
+            "CompileBackgroundAnalyse": {
+              "count": 1,
+              "time": 2
+            },
+            "CompileBackgroundCompileTask": {
+              "count": 1,
+              "time": 25
+            },
+            "CompileBackgroundIgnition": {
+              "count": 2,
+              "time": 149
+            },
+            "CompileBackgroundRewriteReturnResult": {
+              "count": 1,
+              "time": 0
+            },
+            "CompileBackgroundScopeAnalysis": {
+              "count": 1,
+              "time": 7
+            },
+            "CompileBackgroundScript": {
+              "count": 1,
+              "time": 16
+            }
+          },
+          "Blink C++": {
+            "GetMoreDataCallback": {
+              "count": 11,
+              "time": 5701
+            },
+            "FunctionCallback": {
+              "count": 12254,
+              "time": 8876
+            },
+            "AccessorGetterCallback": {
+              "count": 555,
+              "time": 260
+            },
+            "AccessorSetterCallback": {
+              "count": 368,
+              "time": 47
+            },
+            "GCEpilogueCallback": {
+              "count": 8,
+              "time": 155
+            },
+            "GCPrologueCallback": {
+              "count": 8,
+              "time": 106
+            },
+            "NamedGetterCallback": {
+              "count": 19,
+              "time": 61
+            },
+            "LoadCallbackProperty": {
+              "count": 3,
+              "time": 3
+            },
+            "StoreCallbackProperty": {
+              "count": 338,
+              "time": 130
+            }
+          },
+          "Parse-Background": {
+            "ParseBackgroundFunctionLiteral": {
+              "count": 1,
+              "time": 14
+            },
+            "ParseBackgroundProgram": {
+              "count": 1,
+              "time": 292
+            },
+            "PreParseBackgroundWithVariableResolution": {
+              "count": 5503,
+              "time": 19221
+            }
+          },
+          "V8 C++": {
+            "DeserializeContext": {
+              "count": 1,
+              "time": 801
+            },
+            "Genesis": {
+              "count": 1,
+              "time": 132
+            },
+            "Map_SetPrototype": {
+              "count": 7467,
+              "time": 561
+            },
+            "Map_TransitionToDataProperty": {
+              "count": 11264,
+              "time": 4989
+            },
+            "PrototypeMap_TransitionToAccessorProperty": {
+              "count": 29,
+              "time": 35
+            },
+            "PrototypeMap_TransitionToDataProperty": {
+              "count": 460,
+              "time": 390
+            },
+            "Invoke": {
+              "count": 347,
+              "time": 55
+            },
+            "InvokeApiFunction": {
+              "count": 71,
+              "time": 42
+            },
+            "ArrayLengthGetter": {
+              "count": 165,
+              "time": 16
+            },
+            "ArrayLengthSetter": {
+              "count": 138,
+              "time": 25
+            },
+            "FunctionLengthGetter": {
+              "count": 7,
+              "time": 0
+            },
+            "FunctionPrototypeGetter": {
+              "count": 346,
+              "time": 280
+            },
+            "FunctionPrototypeSetter": {
+              "count": 230,
+              "time": 254
+            },
+            "Map_TransitionToAccessorProperty": {
+              "count": 182,
+              "time": 164
+            },
+            "TransitionElementsKindWithKind": {
+              "count": 2,
+              "time": 4
+            },
+            "SetGrow": {
+              "count": 22,
+              "time": 9
+            },
+            "WeakCollectionSet": {
+              "count": 666,
+              "time": 599
+            },
+            "ForInEnumerate": {
+              "count": 722,
+              "time": 717
+            },
+            "AllocateInYoungGeneration": {
+              "count": 60,
+              "time": 264
+            },
+            "OrdinaryHasInstance": {
+              "count": 2,
+              "time": 11
+            },
+            "CreateArrayLiteral": {
+              "count": 285,
+              "time": 171
+            },
+            "CreateArrayLiteralWithoutAllocationSite": {
+              "count": 86,
+              "time": 10
+            },
+            "CreateObjectLiteral": {
+              "count": 1002,
+              "time": 920
+            },
+            "CreateObjectLiteralWithoutAllocationSite": {
+              "count": 2,
+              "time": 13
+            },
+            "CreateRegExpLiteral": {
+              "count": 93,
+              "time": 198
+            },
+            "NumberToString": {
+              "count": 678,
+              "time": 595
+            },
+            "AddDictionaryProperty": {
+              "count": 2045,
+              "time": 893
+            },
+            "CompleteInobjectSlackTrackingForMap": {
+              "count": 59,
+              "time": 17
+            },
+            "DefineAccessorPropertyUnchecked": {
+              "count": 22,
+              "time": 21
+            },
+            "GetProperty": {
+              "count": 586,
+              "time": 203
+            },
+            "NewObject": {
+              "count": 216,
+              "time": 374
+            },
+            "ObjectCreate": {
+              "count": 220,
+              "time": 587
+            },
+            "ObjectKeys": {
+              "count": 94,
+              "time": 151
+            },
+            "SetKeyedProperty": {
+              "count": 1906,
+              "time": 926
+            },
+            "SetNamedProperty": {
+              "count": 1,
+              "time": 4
+            },
+            "RegExpExec": {
+              "count": 60,
+              "time": 503
+            },
+            "StringSplit": {
+              "count": 490,
+              "time": 391
+            },
+            "DeclareGlobals": {
+              "count": 1,
+              "time": 11
+            },
+            "NewClosure": {
+              "count": 95,
+              "time": 17
+            },
+            "NewClosure_Tenured": {
+              "count": 2020,
+              "time": 442
+            },
+            "PushBlockContext": {
+              "count": 1,
+              "time": 4
+            },
+            "StringEqual": {
+              "count": 51,
+              "time": 12
+            },
+            "StringIndexOfUnchecked": {
+              "count": 4,
+              "time": 10
+            },
+            "HandleApiCall": {
+              "count": 6385,
+              "time": 1393
+            },
+            "ArrayConcat": {
+              "count": 127,
+              "time": 129
+            },
+            "ArrayUnshift": {
+              "count": 7,
+              "time": 10
+            },
+            "BooleanConstructor": {
+              "count": 58,
+              "time": 9
+            },
+            "DateNow": {
+              "count": 28,
+              "time": 33
+            },
+            "FunctionPrototypeToString": {
+              "count": 55,
+              "time": 19
+            },
+            "ObjectDefineProperties": {
+              "count": 2,
+              "time": 26
+            },
+            "ObjectDefineProperty": {
+              "count": 396,
+              "time": 333
+            },
+            "ObjectFreeze": {
+              "count": 23,
+              "time": 21
+            },
+            "ObjectGetOwnPropertyDescriptors": {
+              "count": 78,
+              "time": 497
+            },
+            "ObjectGetPrototypeOf": {
+              "count": 1838,
+              "time": 210
+            },
+            "ObjectSetPrototypeOf": {
+              "count": 208,
+              "time": 138
+            },
+            "ObjectIsExtensible": {
+              "count": 5,
+              "time": 3
+            },
+            "SymbolConstructor": {
+              "count": 1,
+              "time": 4
+            },
+            "Object_DeleteProperty": {
+              "count": 1,
+              "time": 5
+            },
+            "StringLengthGetter": {
+              "count": 19,
+              "time": 1
+            },
+            "MapGrow": {
+              "count": 22,
+              "time": 35
+            },
+            "AllocateInOldGeneration": {
+              "count": 1,
+              "time": 2
+            },
+            "ThrowConstructedNonConstructable": {
+              "count": 1,
+              "time": 67
+            },
+            "UnwindAndFindExceptionHandler": {
+              "count": 1,
+              "time": 4
+            },
+            "DeleteProperty": {
+              "count": 1,
+              "time": 4
+            },
+            "RegExpReplaceRT": {
+              "count": 226,
+              "time": 342
+            },
+            "PushCatchContext": {
+              "count": 1,
+              "time": 2
+            },
+            "GlobalDecodeURIComponent": {
+              "count": 1,
+              "time": 8
+            },
+            "ObjectPrototypeSetProto": {
+              "count": 6,
+              "time": 9
+            },
+            "StringPrototypeLastIndexOf": {
+              "count": 172,
+              "time": 13
+            },
+            "MapShrink": {
+              "count": 2,
+              "time": 3
+            },
+            "SetShrink": {
+              "count": 1,
+              "time": 1
+            },
+            "LoadAccessorProperty": {
+              "count": 5798,
+              "time": 601
+            },
+            "BytecodeBudgetInterrupt": {
+              "count": 59,
+              "time": 807
+            },
+            "StringToLowerCaseIntl": {
+              "count": 88,
+              "time": 59
+            },
+            "StringToUpperCaseIntl": {
+              "count": 490,
+              "time": 149
+            },
+            "HasProperty": {
+              "count": 309,
+              "time": 129
+            },
+            "SetDataProperties": {
+              "count": 606,
+              "time": 2495
+            },
+            "RegExpExecMultiple": {
+              "count": 34,
+              "time": 110
+            },
+            "StringReplaceNonGlobalRegExpWithFunction": {
+              "count": 17,
+              "time": 65
+            },
+            "StringAdd": {
+              "count": 24,
+              "time": 10
+            },
+            "StringBuilderConcat": {
+              "count": 21,
+              "time": 7
+            },
+            "StringCharCodeAt": {
+              "count": 3,
+              "time": 3
+            },
+            "ArrayPop": {
+              "count": 10,
+              "time": 6
+            },
+            "ArrayBufferConstructor": {
+              "count": 1,
+              "time": 2037
+            },
+            "MapPrototypeClear": {
+              "count": 49,
+              "time": 26
+            },
+            "NumberPrototypeToString": {
+              "count": 51,
+              "time": 63
+            },
+            "ObjectIsFrozen": {
+              "count": 4,
+              "time": 5
+            },
+            "SetPrototypeClear": {
+              "count": 1,
+              "time": 3
+            },
+            "StringPrototypeToUpperCaseIntl": {
+              "count": 133,
+              "time": 65
+            }
+          },
+          "GC": {
+            "GC_Custom_SlowAllocateRaw": {
+              "count": 28,
+              "time": 239
+            },
+            "GC_HEAP_EPILOGUE": {
+              "count": 8,
+              "time": 33
+            },
+            "GC_HEAP_EPILOGUE_REDUCE_NEW_SPACE": {
+              "count": 8,
+              "time": 3
+            },
+            "GC_HEAP_EXTERNAL_EPILOGUE": {
+              "count": 8,
+              "time": 2
+            },
+            "GC_HEAP_EXTERNAL_PROLOGUE": {
+              "count": 8,
+              "time": 2
+            },
+            "GC_HEAP_EXTERNAL_WEAK_GLOBAL_HANDLES": {
+              "count": 16,
+              "time": 64
+            },
+            "GC_HEAP_PROLOGUE": {
+              "count": 8,
+              "time": 175
+            },
+            "GC_SCAVENGER_SCAVENGE": {
+              "count": 8,
+              "time": 981
+            },
+            "GC_SCAVENGER_PROCESS_ARRAY_BUFFERS": {
+              "count": 8,
+              "time": 18
+            },
+            "GC_SCAVENGER_SCAVENGE_WEAK_GLOBAL_HANDLES_IDENTIFY": {
+              "count": 8,
+              "time": 203
+            },
+            "GC_SCAVENGER_SCAVENGE_WEAK_GLOBAL_HANDLES_PROCESS": {
+              "count": 8,
+              "time": 141
+            },
+            "GC_SCAVENGER_SCAVENGE_PARALLEL": {
+              "count": 8,
+              "time": 7001
+            },
+            "GC_SCAVENGER_SCAVENGE_ROOTS": {
+              "count": 8,
+              "time": 300
+            },
+            "GC_SCAVENGER_SCAVENGE_UPDATE_REFS": {
+              "count": 8,
+              "time": 7
+            },
+            "GC_SCAVENGER_SCAVENGE_FINALIZE": {
+              "count": 8,
+              "time": 371
+            },
+            "GC_BACKGROUND_ARRAY_BUFFER_FREE": {
+              "count": 8,
+              "time": 6
+            },
+            "GC_BACKGROUND_STORE_BUFFER": {
+              "count": 25,
+              "time": 517
+            },
+            "GC_SCAVENGER_BACKGROUND_SCAVENGE_PARALLEL": {
+              "count": 20,
+              "time": 16597
+            }
+          },
+          "API": {
+            "API_Context_New": {
+              "count": 1,
+              "time": 95
+            },
+            "API_FunctionTemplate_New": {
+              "count": 913,
+              "time": 238
+            },
+            "API_ObjectTemplate_New": {
+              "count": 65,
+              "time": 14
+            },
+            "API_TracedGlobal_New": {
+              "count": 2923,
+              "time": 391
+            },
+            "API_Function_NewInstance": {
+              "count": 17,
+              "time": 14
+            },
+            "API_External_New": {
+              "count": 1,
+              "time": 0
+            },
+            "API_FunctionTemplate_GetFunction": {
+              "count": 50,
+              "time": 366
+            },
+            "API_Object_CreateDataProperty": {
+              "count": 13,
+              "time": 3
+            },
+            "API_Object_DefineOwnProperty": {
+              "count": 6,
+              "time": 2
+            },
+            "API_Object_Get": {
+              "count": 52,
+              "time": 18
+            },
+            "API_Object_HasOwnProperty": {
+              "count": 2,
+              "time": 0
+            },
+            "API_Object_New": {
+              "count": 2,
+              "time": 0
+            },
+            "API_Object_SetPrivate": {
+              "count": 3,
+              "time": 3
+            },
+            "API_Object_SetPrototype": {
+              "count": 21,
+              "time": 24
+            },
+            "API_Persistent_New": {
+              "count": 58,
+              "time": 14
+            },
+            "API_Script_Run": {
+              "count": 2,
+              "time": 4
+            },
+            "API_String_NewExternalOneByte": {
+              "count": 10,
+              "time": 5
+            },
+            "API_String_NewFromOneByte": {
+              "count": 1369,
+              "time": 216
+            },
+            "API_String_Write": {
+              "count": 959,
+              "time": 115
+            }
+          },
+          "Compile": {
+            "CompileIgnitionFinalization": {
+              "count": 2131,
+              "time": 3712
+            },
+            "CompileAnalyse": {
+              "count": 2104,
+              "time": 259
+            },
+            "CompileFunction": {
+              "count": 2103,
+              "time": 13195
+            },
+            "CompileIgnition": {
+              "count": 2129,
+              "time": 12767
+            },
+            "CompileRewriteReturnResult": {
+              "count": 2104,
+              "time": 74
+            },
+            "CompileScopeAnalysis": {
+              "count": 2104,
+              "time": 1252
+            },
+            "CompileLazy": {
+              "count": 1937,
+              "time": 1957
+            },
+            "CompileScript": {
+              "count": 1,
+              "time": 19
+            },
+            "API_ScriptCompiler_CompileUnbound": {
+              "count": 1,
+              "time": 29
+            },
+            "CompileForOnStackReplacement": {
+              "count": 1,
+              "time": 7
+            },
+            "RegExpInitializeAndCompile": {
+              "count": 1,
+              "time": 5
+            }
+          },
+          "JavaScript": {
+            "JS_Execution": {
+              "count": 330,
+              "time": 129064
+            }
+          },
+          "Parse": {
+            "ParseFunction": {
+              "count": 2104,
+              "time": 2104
+            },
+            "ParseFunctionLiteral": {
+              "count": 2129,
+              "time": 13646
+            },
+            "PreParseWithVariableResolution": {
+              "count": 4822,
+              "time": 1974
+            },
+            "ParseProgram": {
+              "count": 1,
+              "time": 34
+            },
+            "JsonParse": {
+              "count": 8,
+              "time": 85
+            }
+          },
+          "IC": {
+            "ElementsTransitionAndStoreIC_Miss": {
+              "count": 1,
+              "time": 2
+            },
+            "KeyedStoreIC_Miss": {
+              "count": 170,
+              "time": 226
+            },
+            "LoadGlobalIC_Miss": {
+              "count": 365,
+              "time": 202
+            },
+            "LoadGlobalIC_Slow": {
+              "count": 8,
+              "time": 3
+            },
+            "StoreGlobalIC_Miss": {
+              "count": 12,
+              "time": 12
+            },
+            "StoreIC_Miss": {
+              "count": 631,
+              "time": 846
+            },
+            "KeyedLoadIC_LoadElementDH": {
+              "count": 369,
+              "time": 326
+            },
+            "KeyedStoreIC_ElementsTransitionAndStoreStub": {
+              "count": 2,
+              "time": 10
+            },
+            "KeyedStoreIC_StoreFastElementStub": {
+              "count": 229,
+              "time": 330
+            },
+            "LoadGlobalIC_LoadScriptContextField": {
+              "count": 1,
+              "time": 1
+            },
+            "LoadIC_FunctionPrototypeStub": {
+              "count": 138,
+              "time": 221
+            },
+            "LoadIC_LoadAccessorDH": {
+              "count": 49,
+              "time": 59
+            },
+            "LoadIC_LoadAccessorFromPrototypeDH": {
+              "count": 237,
+              "time": 359
+            },
+            "LoadIC_LoadApiGetterFromPrototypeDH": {
+              "count": 17,
+              "time": 36
+            },
+            "LoadIC_LoadFieldDH": {
+              "count": 2128,
+              "time": 1498
+            },
+            "LoadIC_LoadFieldFromPrototypeDH": {
+              "count": 2014,
+              "time": 2157
+            },
+            "LoadIC_LoadNativeDataPropertyDH": {
+              "count": 2,
+              "time": 5
+            },
+            "LoadIC_LoadNonexistentDH": {
+              "count": 2618,
+              "time": 1524
+            },
+            "LoadIC_LoadNonMaskingInterceptorDH": {
+              "count": 9,
+              "time": 21
+            },
+            "LoadIC_LoadNormalDH": {
+              "count": 33,
+              "time": 28
+            },
+            "LoadIC_Premonomorphic": {
+              "count": 459,
+              "time": 498
+            },
+            "LoadIC_SlowStub": {
+              "count": 18,
+              "time": 52
+            },
+            "StoreGlobalIC_Premonomorphic": {
+              "count": 1,
+              "time": 8
+            },
+            "StoreIC_Premonomorphic": {
+              "count": 3589,
+              "time": 3482
+            },
+            "StoreIC_StoreApiSetterOnPrototypeDH": {
+              "count": 3,
+              "time": 41
+            },
+            "StoreIC_StoreFieldDH": {
+              "count": 791,
+              "time": 1258
+            },
+            "StoreIC_StoreNativeDataPropertyDH": {
+              "count": 6,
+              "time": 6
+            },
+            "LoadIC_LoadGlobalDH": {
+              "count": 3,
+              "time": 2
+            },
+            "LoadIC_StringLength": {
+              "count": 12,
+              "time": 11
+            },
+            "StoreIC_SlowStub": {
+              "count": 1,
+              "time": 1
+            },
+            "StoreIC_StoreNormalDH": {
+              "count": 4,
+              "time": 3
+            },
+            "KeyedLoadIC_Miss": {
+              "count": 2,
+              "time": 4
+            },
+            "LoadIC_Miss": {
+              "count": 1,
+              "time": 3
+            },
+            "KeyedLoadIC_LoadIndexedStringDH": {
+              "count": 1,
+              "time": 3
+            },
+            "StoreIC_StoreAccessorOnPrototypeDH": {
+              "count": 4,
+              "time": 6
+            }
+          },
+          "Optimize": {
+            "CompileGetFromOptimizedCodeMap": {
+              "count": 63,
+              "time": 10
+            },
+            "DeoptimizeCode": {
+              "count": 2,
+              "time": 27
+            },
+            "OptimizeCode": {
+              "count": 63,
+              "time": 807
+            },
+            "RecompileSynchronous": {
+              "count": 125,
+              "time": 21582
+            },
+            "CompileOptimized_Concurrent": {
+              "count": 62,
+              "time": 61
+            },
+            "NotifyDeoptimized": {
+              "count": 2,
+              "time": 32
+            },
+            "StackGuard": {
+              "count": 62,
+              "time": 2201
+            },
+            "RecompileConcurrent": {
+              "count": 59,
+              "time": 57124
+            }
+          }
+        }
+      }
+    ],
+    "set": "experiment"
+  }
+]

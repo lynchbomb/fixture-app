@@ -1,12 +1,9 @@
 import EmberRouter from '@ember/routing/router';
-import config from './config/environment';
 import {
   schedule
 } from '@ember/runloop';
 
-class Router extends EmberRouter {
-  location = config.locationType;
-  rootURL = config.rootURL;
+export default class Router extends EmberRouter {
   constructor() {
     super(...arguments);
     this.on('routeDidChange', () => {
@@ -15,21 +12,22 @@ class Router extends EmberRouter {
   }
 }
 
-Router.map(function () {});
-
-export default Router;
-
 function renderEnd() {
   if (location.search === '?tracing') {
     const observer = new PerformanceObserver(list => {
-      if (list.getEntriesByName("mark_meaningful_paint_end").length > 0) {
-        requestIdleCallback(() => {
-          this.document.location.href = "about:blank"
+      const navEntries = list.getEntriesByType("navigation");
+      if (navEntries.length > 0) {
+        navEntries.forEach((entry) => {
+          if (entry.domComplete) {
+            requestIdleCallback(() => {
+              document.location.href = "about:blank"
+            });
+          }
         });
       }
     });
     observer.observe({
-      entryTypes: ["navigation", "mark"]
+      entryTypes: ["navigation"]
     });
   }
 }
