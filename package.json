@@ -15,6 +15,7 @@
     "lint:js": "eslint .",
     "start": "ember serve",
     "test": "ember test",
+    "tb:help": "tracerbench help",
     "tb:compare": "tracerbench compare"
   },
   "devDependencies": {
