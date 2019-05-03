@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function(environment) {
+module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'fixture-app',
     environment,
@@ -45,6 +45,8 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
+    ENV.locationType = 'hash';
+    ENV.rootURL = '';
   }
 
   return ENV;

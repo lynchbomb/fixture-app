@@ -1,10 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/TracerBench/tracerbench/master/packages/cli/tb-schema.json",
   "fidelity": "test",
-  "controlURL": "file:///Users/malynch/D/fixture-app/dist/index.html",
-  "experimentURL": "file:///Users/malynch/D/fixture-app/dist/index.html",
-  "tracingLocationSearch": "?tracing",
-  "debug": "true",
   "markers": [{
       "start": "navigationStart",
       "label": "navigationStart"
