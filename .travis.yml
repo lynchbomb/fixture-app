@@ -20,4 +20,4 @@ before_install:
   - npm config set spin false
 
 script:
-  - yarn build --environment=production && yarn tb:compare
+  - yarn tb:compare

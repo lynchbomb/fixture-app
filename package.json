@@ -15,7 +15,7 @@
     "lint:js": "eslint .",
     "start": "ember serve",
     "test": "ember test",
-    "tb:compare": "./scripts/tb.sh"
+    "tb:compare": "yarn build --environment=production && ./scripts/tb.js"
   },
   "devDependencies": {
     "@ember/optional-features": "^0.7.0",
@@ -42,7 +42,9 @@
     "eslint-plugin-ember": "^5.2.0",
     "loader.js": "^4.7.0",
     "qunit-dom": "^0.8.0",
-    "tracerbench-cli": "^2.0.0-beta.6"
+    "tracerbench-cli": "^2.0.0-beta.6",
+    "fs-extra": "^7.0.1",
+    "path": "^0.12.7"
   },
   "engines": {
     "node": ">= 6"
