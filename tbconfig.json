@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/TracerBench/tracerbench/master/packages/cli/tb-schema.json",
-  "fidelity": "test",
+  "fidelity": "medium",
   "markers": [{
       "start": "navigationStart",
       "label": "navigationStart"

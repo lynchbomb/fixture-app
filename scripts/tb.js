@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
 const path = require('path');
-const jsonQuery = require('json-query');
 const ora = require('ora');
 const {
   spawn
 } = require('child_process');
+
 const app = {
   control: `file://${path.join(process.cwd() + '/dist/index.html')}`,
   experiment: `file://${path.join(process.cwd() + '/dist/index.html')}`,
@@ -29,24 +29,21 @@ tb.on('close', (code) => {
 
 function tbAnalyze() {
   spinner.start(`TracerBench: analyzing data...\n`);
-
+  
   // query results data and check if any phase is significant
-  // return an array of only the phases that are 
-  const sigPhases = jsonQuery('[**][*rankSumSignificant=Yes]', {
-    data: `${results}`
-  }).value;
+  const data = JSON.parse(results);
 
-  if (sigPhases.length > 0) {
-    try {
-      sigPhases.forEach((phase) => {
-        // significant phases found (regression or improvement)
-        spinner.warn(`TracerBench: Complete - Rank Sum Significant Phases: ${phase.statName}`);
-      });
-    } catch (e) {
-      spinner.error(e);
+  if (data.isSignificant) {
+    // significant phases found (regression or improvement)
+    spinner.warn(`TracerBench: results are statistically significant.`);
+    if (data.isBelowRegressionThreshold) {
+      spinner.warn(`TracerBench: regression detected however is below set thresholds`)
+    } else {
+      spinner.warn(`TracerBench: regression detected and above thresholds limits.`)
     }
-  } else {
-    spinner.succeed(`TracerBench: Complete - No Significant Rank Sum Phases Found`);
+  }
+  if (!data.isSignificant) {
+    spinner.succeed(`TracerBench: results are statistically insignificant.`);
   }
 
   spinner.stop();
